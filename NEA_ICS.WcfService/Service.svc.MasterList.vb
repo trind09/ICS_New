@@ -1524,7 +1524,7 @@ Partial Public Class Service
 
             RolesRetrieved = MasterListBL.GetUserRoleIDBySoeID(soeID)
 
-            If RolesRetrieved.Tables(0).Rows.Count > 0 Then
+            If RolesRetrieved IsNot Nothing Then
                 Return RolesRetrieved
             End If
 

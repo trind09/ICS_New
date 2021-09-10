@@ -18,7 +18,7 @@
         End If
     End If
 
-    If onlyUserName IsNot Nothing Then
+    If onlyUserName IsNot Nothing And onlyUserName <> "" Then
 
         Session("UserID") = Trim(onlyUserName.ToString.ToUpper)
 
