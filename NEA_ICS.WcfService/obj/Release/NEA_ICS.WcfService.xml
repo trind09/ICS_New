@@ -1,0 +1,2146 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NEA_ICS.WcfService
+</name>
+</assembly>
+<members>
+<member name="T:NEA_ICS.WcfService.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NEA_ICS.WcfService.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NEA_ICS.WcfService.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:NEA_ICS.WcfService.AOrderDetails">
+ <summary>
+ DataContract - for AR002 Order;
+ 4 Jan 08 - Liu Guo Feng;
+ </summary>
+</member>
+<member name="T:NEA_ICS.WcfService.AResidueDetails">
+ <summary>
+ Data Contract - For AAR004  Residue Cost Adjustments
+ 18 Oct 2010 - Jianfa
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.AStockItemDetails">
+ <summary>
+ DataContract - for AR001 Stock Item;
+ 4 Jan 08 - Liu Guo Feng;
+ </summary>
+</member>
+<member name="T:NEA_ICS.WcfService.AStockTransactionDetails">
+ <summary>
+ DataContract - for AR003 Stock Transaction;
+ 4 Jan 08 - Liu Guo Feng;
+ </summary>
+</member>
+<member name="T:NEA_ICS.WcfService.IService">
+ <summary>
+ Interface Layer - for ICS;
+ 17 Dec 08 - Kenny GOH, Jianfa CHEN;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ 12Dec08 Kenny    GetSuppliers   To populate active suppliers;
+ 18Dec08 Jianfa   AddSupplier    To insert supplier details into DB;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.ManageFinancialClosing(System.String,System.String)">
+ <summary>
+ Manage Financial Closing, update past finanical cutoff date record details;
+ 28Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.FieldIsUnique(System.String,NEA_ICS.WcfService.Service.ColumnName,System.String,System.String)">
+ <summary>
+ Check field is Unique, PK is ONLY required when the check is on existing record and column is not the PK;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="columnName">column to check</param>
+ <param name="columnValue">value to check against the column</param>
+ <param name="pkColumnValue">primary key value</param>
+ <returns>True = Unique</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetMoreItemInfo(System.String,System.String,System.DateTime)">
+ <summary>
+ Get More Stock Item Info for a single Stock item based on specific date;
+ 08Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="stockItem"></param>
+ <param name="asOfDte"></param>
+ <returns>More Stock Items Info DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetLastSerialNo(System.String,NEA_ICS.WcfService.Service.ModuleName)">
+ <summary>
+ Get the Last Serial No base on the provide info;
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="moduleName"></param>
+ <returns>last serial no</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.WithinFinancialCutoff(System.String,System.DateTime)">
+ <summary>
+ Check Financial Cutoff date, if within return TRUE;
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="tranDte"></param>
+ <returns>True = within; False = Not within</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.DeleteAllStockTransaction(System.String,System.String,NEA_ICS.WcfService.Service.ModuleName,System.DateTime,System.String)">
+ <summary>
+ Delete all stock transaction for a single document Reference (receive, issue, adjustment) on a specific date;
+ 11Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="docNo"></param>
+ <param name="stockControlType"></param>
+ <param name="originalDte"></param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.AddOrder(NEA_ICS.WcfService.OrderDetails,System.Collections.Generic.List{NEA_ICS.WcfService.OrderItemDetails})">
+ <summary>
+ Add Order n Order Items
+ 05Feb09 - KG;
+ </summary>
+ <param name="orderDetails"></param>
+ <param name="orderItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetOrder(System.String,System.String)">
+ <summary>
+ Get Order based on status, default all Open Order only;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns>Orders DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetOrderItem(System.String,System.String,System.Boolean)">
+ <summary>
+ Get all Order Items for a single Order Reference;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <returns>Order Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateOrder(NEA_ICS.WcfService.OrderDetails,System.Collections.Generic.List{NEA_ICS.WcfService.OrderItemDetails})">
+ <summary>
+ Update Order or OrderItem or Both Details, based on the orderitem's mode to either Delete, Insert or Update;
+ 05Feb09 - KG;
+ </summary>
+ <param name="orderDetails"></param>
+ <param name="orderItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.DeleteOrder(System.String,System.String,System.String,System.String)">
+ <summary>
+ Delete Order and its Order Items details;
+ 08Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetOrderList(System.String,System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get all Order list by parameters;
+ when orderID is with value, ignore other parameters and get only order items relates to the single Order Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="orderID"></param>
+ <returns>Orders DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetReceiveItem(System.String,System.String,System.DateTime)">
+ <summary>
+ Get the Receive Items for a single Order Reference on a specific date
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="dte"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetReceiveDte(System.String,System.String)">
+ <summary>
+ Get all Receive Date under the same Order
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateReceiveItem(System.String,System.String,System.DateTime,System.String,System.Collections.Generic.List{NEA_ICS.WcfService.ReceiveItemDetails})">
+ <summary>
+ Update the Receive Items base on the Mode either Insert, Update or Delete transaction;
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type"></param>
+ <param name="dte"></param>
+ <param name="receiveDetails"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetReceiveList(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get the Receive list base on parameters;
+ when orderID is with value, ignore other parameters and get only receive items relates to the single Order Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="orderID">overwrite other parameter and return value for this order only</param>
+ <returns>Receive DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.AddRequest(NEA_ICS.WcfService.RequestDetails,System.Collections.Generic.List{NEA_ICS.WcfService.IssueItemDetails})">
+ <summary>
+ Add New Request and its Item Details;
+ 20Feb09 - KG;
+ </summary>
+ <param name="requestDetails"></param>
+ <param name="requestItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetRequest(System.String,System.String)">
+ <summary>
+ Get Request based on status, default all Open Request only;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns>Requests DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetRequestBySearch(NEA_ICS.WcfService.RequestDetails)">
+ <summary>
+ Get Request by search criteria list;
+ 26Feb09 - KG;
+ </summary>
+ <param name="requestDetails"></param>
+ <returns>Requests DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetRequestItem(System.String,System.String)">
+ <summary>
+ Get all Request items with or without Issue items for a single Request Reference;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <returns>Request Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateRequest(System.String,System.String,System.String,System.Collections.Generic.List{NEA_ICS.WcfService.IssueItemDetails})">
+ <summary>
+ Update only to RequestItem Details, based on the requestitem's mode to either Delete, Insert or Update;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="loginUser"></param>
+ <param name="requestItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.DeleteRequest(System.String,System.String,System.String,System.String)">
+ <summary>
+ Delete Request and its Request Items details;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateRequestStatus(System.String,System.String,System.String,System.String)">
+ <summary>
+ Update Request Status to either Approved or Rejected;
+ 23Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="status">Approved, Rejected</param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateAdjustStatus(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.DateTime,System.String,System.DateTime)">
+ <summary>
+ Update Request Status to either Approved or Rejected;
+ 03Mar12 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID"></param>
+ <param name="adjustType"></param>
+ <param name="status">Approved, Rejected</param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateIssueItem(NEA_ICS.WcfService.RequestDetails,System.Collections.Generic.List{NEA_ICS.WcfService.IssueItemDetails})">
+ <summary>
+ Update the Issue Items base on the Mode either Insert, Update or Delete transaction;
+ 14Feb09 - KG;
+ </summary>
+ <param name="requestDetails"></param>
+ <param name="issueItemList"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetIssueList(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)">
+ <summary>
+ Get the Issue list base on parameters;
+ when requestID is with value, ignore other parameters and get only issue items relates to the single Request Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="requestID">overwrite other parameter and return value for this request only</param>
+ <returns>Issue DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.AddAdjust(NEA_ICS.WcfService.AdjustDetails,System.Collections.Generic.List{NEA_ICS.WcfService.AdjustItemDetails})">
+ <summary>
+ Add New Adjust and its Item Details also to stock transaction;
+ 20Feb09 - KG;
+ </summary>
+ <param name="adjustDetails"></param>
+ <param name="adjustItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetAdjust(System.String,System.String,System.String)">
+ <summary>
+ Get Adjust based on type(AI or AO) n status, all adjust is created as "C" only;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type">AI = Inwards, AO = Outwards</param>
+ <param name="status"></param>
+ <returns>Adjusts DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetAdjustItem(System.String,System.String,System.String)">
+ <summary>
+ Get all Adjust items for a single Adjust Reference;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID"></param>
+ <param name="type">AI = Inwards, AO = Outwards</param>
+ <returns>Adjust Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetAdjustBySearch(NEA_ICS.WcfService.AdjustDetails)">
+ <summary>
+ Get Adjust by search criteria list;
+ 09 Mar 12 - Christina;
+ </summary>
+ <param name="adjustDetails"></param>
+ <returns>Adjust DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.UpdateAdjust(NEA_ICS.WcfService.AdjustDetails,System.Collections.Generic.List{NEA_ICS.WcfService.AdjustItemDetails})">
+ <summary>
+ Update to Adjust n AdjustItem Details, based on the adjustitem's mode to either Delete, Insert or Update;
+ 20Feb09 - KG;
+ </summary>
+ <param name="adjustDetails"></param>
+ <param name="adjustItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.DeleteAdjust(System.String,System.String,System.String,System.DateTime,System.String)">
+ <summary>
+ Delete Adjust and all its Adjust Items n Transaction details;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustType">Inward or Outward</param>
+ <param name="adjustID"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IService.GetAdjustList(System.String,System.String,System.DateTime,System.DateTime,System.String)">
+ <summary>
+ Get the Adjust list base on parameters;
+ when adjustID is with value, ignore other parameters and get only adjust items relates to the single Adjust Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="adjustID">overwrite other parameter and return value for this adjust only</param>
+ <returns>Adjust DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.RackItemBalanceDetails">
+ <summary>
+ DataContract - for MR001 Rack Item Balance;
+ 29 Dec 08 - Liu Guo Feng;
+ </summary>
+</member>
+<member name="T:NEA_ICS.WcfService.TransactionListDetails">
+ <summary>
+ DataContract - for MR002 Transaction List;
+ 29 Dec 08 - Liu Guo Feng;
+ </summary>
+</member>
+<member name="T:NEA_ICS.WcfService.CommonDetails">
+ <summary>
+ DataContract - for Common Details;
+ 23 Dec 08 - Jianfa CHEN;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ 26Dec08  KG  RefID  Add CommonID;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.ConsumerDetails">
+ <summary>
+ DataContract - for Consumer Details;
+ 20 Jan 09 - Jianfa
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.EquipmentDetails">
+ <summary>
+ DataContract - for Equipment Details;
+ 29 Dec 08 - Jianfa
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks> 
+</member>
+<member name="M:NEA_ICS.WcfService.EquipmentDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 29 Dec 08 - Jianfa;
+ </summary>
+ <param name="initialise"></param>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.ItemDetails">
+ <summary>
+ DataContract - for Item Details;
+ 07 Jan 09 - Jianfa
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks> 
+ 
+</member>
+<member name="M:NEA_ICS.WcfService.MoreItemInfoDetails.#ctor">
+ <summary>
+ DataContract - for More Item info Details;
+ 05Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.RoleDetails">
+ <summary>
+ Data Contract - for Role Details;
+ 13 Jan 09 - Jianfa; 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.StoreDetails">
+ <summary>
+ DataContract - for Supplier Details;
+ 31 Dec 08 - Jianfa;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.SupplierDetails">
+ <summary>
+ DataContract - for Supplier Details;
+ 17 Dec 08 - Jianfa CHEN;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.SupplierDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 18 Dec 08 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.Service">
+ <summary>
+ Service Layer - for ICS;
+ 17 Dec 08 - Kenny GOH
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ 18Dec08  KG       RefID  Create partial class;
+ 30Dec08  Jianfa   RefID  To include view row as well
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetStoreAccess(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - GetStoreAccess;
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUserProfile(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - GetUserProfile;
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUserStoreCodes(System.String)">
+ <summary>
+ Function - GetUserStoreCodes;
+ 20 Sep 09 - Christina;
+ </summary>
+ <param name="userId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUserLogins(System.String,System.String,System.Boolean)">
+ <summary>
+ Function - CheckConcurrentLogin;
+ 25 Aug 11 - Christina;
+ </summary>
+ <param name="userId"></param>
+ <param name="checkIfLogout"></param>
+ <param name="sessionId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateUserAudit(NEA_ICS.WcfService.RoleDetails,System.String)">
+ <summary>
+ Function - UpdateUserAudit;
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.ManageFinancialClosing(System.String,System.String)">
+ <summary>
+ Manage Financial Closing, update past finanical cutoff date record details;
+ 28Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.CheckUserIdExist(System.String)">
+ <summary>
+ Check if such User ID exist
+ Christina - 02 Sep 2013
+ </summary>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUserRoleStatus(System.String,System.String)">
+ <summary>
+ Check User Roles status - inactive or deleted
+ Christina - 02 Sep 2013
+ </summary>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailStockItem(System.String,System.DateTime,System.DateTime,System.String,System.Boolean,System.String)">
+ <summary>
+ Get the list of Stock Item based on the search criteria;
+ 4 Jan 2009 - Liu Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="auditType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailOrder(System.String,System.DateTime,System.DateTime,System.String,System.String)">
+ <summary>
+ Get the list of Order based on the search criteria;
+ 4 Jan 2009 - Liu Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="auditType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailACommon(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of Common based on the search criteria;
+ 10 Oct 2016 - Pritpalkaur hunjan;
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailAConsumer(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of Consumer based on the search criteria;
+ 11 Oct 2016 - Pritpalkaur hunjan;
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailAEquipment(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of AEquipment based on the search criteria;
+ 11 Oct 2016 - Pritpalkaur hunjan;
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailAStore(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of AStore based on the search criteria;
+ 11 Oct 2016 - Pritpalkaur hunjan;
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailASupplier(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of Common based on the search criteria;
+ 11 Oct 2016 - Pritpalkaur hunjan;
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailAUserRole(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of Common based on the search criteria;
+ 11 Oct 2016 - Pritpalkaur hunjan;
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailStockTransaction(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get the list of Stock Transaction based on the search criteria;
+ 4 Jan 2009 - Liu Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="auditType"></param>
+ <param name="transType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAuditTrailResidue(System.String,System.Int32,System.Int32)">
+ <summary>
+ Get the list of Residue Costs based on the search criteria;
+ 18 Oct 2010 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="month"></param>
+ <param name="year"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetRackLocation(System.String)">
+ <summary>
+ Get the list of Suppliers based on the search criteria;
+ 29 Dec 08 - Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetStockCode(System.String)">
+ <summary>
+ Get the list of StockCode based on the search criteria;
+ 29 Dec 08 - Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetRackItemBalance(System.String,System.String,System.String)">
+ <summary>
+ Get the list of Suppliers based on the search criteria;
+ 29 Dec 08 - Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <param name="rackLocationFrom"></param>
+ <param name="rackLocationTo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetTransactionList(System.String,System.String,System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get the list of TransactionList based on the search criteria;
+ 29 Dec 08 - Guo Feng;
+ </summary>
+ <param name="storeId"></param>
+ <param name="stockCodeFrom"></param>
+ <param name="stockCodeTo"></param>
+ <param name="transDateFrom"></param>
+ <param name="transDateTo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAdHocReport(NEA_ICS.WcfService.AdHocReportDetails,System.String@)">
+ <summary>
+ Function - GetAdHocReport;
+ 30 Mar 09 - Jianfa;
+ </summary>
+ <param name="adHocReport"></param>
+ <param name="returnMessage"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetRowText(System.Int32,System.Int32,System.Data.DataRow)">
+ <summary>
+ Function - GetRowText 
+ 31 Mar 09 - Jianfa
+ </summary>
+ <param name="idx"></param>
+ <param name="row"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.FillRowWithNull(System.Data.DataRow,System.Data.DataColumnCollection)">
+ <summary>
+ to fill row with DBNull with blank;
+ 21 Dec 08, KG
+ </summary>
+ <param name="RowWithNull"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.FillViewRowWithNull(System.Data.DataRowView,System.Data.DataColumnCollection)">
+ <summary>
+ To fill view row with DBNull with blanks;
+ 30 Dec 2008 - Jianfa;
+ </summary>
+ <param name="ViewRowWithNull"></param>
+ <param name="columnCol"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetSuppliers(NEA_ICS.WcfService.SupplierDetails,System.String,System.String)">
+ <summary>
+ Get the list of Suppliers based on the search criteria;
+ 18 Dec 08 - Jianfa CHEN;
+ </summary>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ 31 Dec 2008  Jianfa  Ref ID  To include sort expression and direction
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddSupplier(NEA_ICS.WcfService.SupplierDetails)">
+ <summary>
+ To insert supplier details;
+ 18 Dec 08 - Jianfa CHEN;
+ </summary>
+ <param name="supplierDetails"></param>
+ <returns>ErrorMessage (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+ 
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateSupplier(NEA_ICS.WcfService.SupplierDetails)">
+ <summary>
+ To update supplier details;
+ 20 Dec 08 - Jianfa CHEN;
+ </summary>
+ <param name="supplierDetails"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateSupplierStatus(NEA_ICS.WcfService.SupplierDetails)">
+ <summary>
+ Function - Update Supplier Status
+ </summary>
+ <param name="supplierDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetCommon(NEA_ICS.WcfService.CommonDetails)">
+ <summary>
+ Function - Get Common;
+ </summary>
+ <param name="commonDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetDistinctCommon(NEA_ICS.WcfService.CommonDetails)">
+ <summary>
+ Function - Get Distinct Common;
+ 03 Jan 09  Jianfa;
+ </summary>
+ <param name="commonDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddCommon(NEA_ICS.WcfService.CommonDetails)">
+ <summary>
+ Function - Add Common;
+ 06 Jan 09 - Jianfa;
+ </summary>
+ <param name="commonDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateCommon(NEA_ICS.WcfService.CommonDetails)">
+ <summary>
+ Function - UpdateCommon;
+ 06 Jan 09 - Jianfa;
+ </summary>
+ <param name="commonDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddEquipment(NEA_ICS.WcfService.EquipmentDetails)">
+ <summary>
+ To add new equipment 
+ 24 Dec 2008 - Jianfa
+ </summary>
+ <param name="equipmentDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetEquipments(NEA_ICS.WcfService.EquipmentDetails,System.String,System.String)">
+ <summary>
+ To get equipments
+ 29 Dec 2008 - Jianfa
+ </summary>
+ <param name="equipmentDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateEquipmentStatus(NEA_ICS.WcfService.EquipmentDetails)">
+ <summary>
+ To update equipment status
+ 29 Dec 2008 - Jianfa
+ </summary>
+ <param name="equipmentDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateEquipment(NEA_ICS.WcfService.EquipmentDetails)">
+ <summary>
+ To update equipment
+ 29 Dec 2008 - Jianfa;
+ </summary>
+ <param name="equipmentDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddStore(NEA_ICS.WcfService.StoreDetails)">
+ <summary>
+ Function -  Add Store;
+ 31 Dec 2008 - Jianfa;
+ </summary>
+ <param name="storeDetails"></param>
+ <returns></returns>
+ <remarks>
+ To insert new store based on selective roles
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetStores(NEA_ICS.WcfService.StoreDetails,System.String,System.String)">
+ <summary>
+ Function - Get Stores
+ 01 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeDetails"></param>
+ <param name="sortExpression"></param>
+ <param name="sortDirection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateStore(NEA_ICS.WcfService.StoreDetails)">
+ <summary>
+ Function - Update Store
+ 01 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateStoreStatus(NEA_ICS.WcfService.StoreDetails)">
+ <summary>
+ Function - Update Store Status
+ 02 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GenerateItemID(NEA_ICS.WcfService.ItemDetails,System.String@)">
+ <summary>
+ Function - GenerateItemID;
+ 07 Jan 09 - Jianfa;
+ </summary>
+ <param name="itemDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddItem(NEA_ICS.WcfService.ItemDetails)">
+ <summary>
+ Function - AddItem;
+ 08 Jan - Jianfa;
+ </summary>
+ <param name="itemDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetItems(NEA_ICS.WcfService.ItemDetails,System.String,System.String)">
+ <summary>
+ Function - GetItems
+ 08 Jan 09 - Jianfa;
+ </summary>
+ <param name="itemDetails"></param>
+ <param name="sortExpression"></param>
+ <param name="sortDirection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetItemsMasterList(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - GetItemsMasterList
+ 03 Mar 2009 - Guo Feng
+ </summary>
+ <param name="printOption"></param>
+ <param name="sortBy"></param>
+ <param name="stockCodeFrom"></param>
+ <param name="stockCodeTo"></param>
+ <param name="excludeStockCodeTypes"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetStockTransaction(NEA_ICS.WcfService.ItemDetails,System.String)">
+ <summary>
+ Function - GetStockTransaction;
+ 09 Jan 09 - Jianfa;
+ </summary>
+ <param name="itemDetails"></param>
+ <param name="transactionType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateItem(NEA_ICS.WcfService.ItemDetails,System.String@)">
+ <summary>
+ Function - UpdateItem;
+ 10 Jan 09 - Jianfa;
+ </summary>
+ <param name="itemDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateItemStatus(NEA_ICS.WcfService.ItemDetails,System.String@)">
+ <summary>
+ 02 May 09 - Jianfa
+ </summary>
+ <param name="itemDetails"></param>
+ <param name="returnMessage"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetItemSearch(NEA_ICS.WcfService.ItemDetails)">
+ <summary>
+ 01 May 09 - Jianfa
+ Function - GetItemSearch
+ </summary>
+ <param name="itemDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.IsValidStockCode(NEA_ICS.WcfService.ItemDetails)">
+ <summary>
+ 01 May 09 - Jianfa
+ Function - IsValidStockCode
+ </summary>
+ <param name="itemDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.IsValidStatus(NEA_ICS.WcfService.ItemDetails)">
+ <summary>
+ 28 Feb 2011 - Jianfa
+ Function - IsValid Status 
+ </summary>
+ <param name="itemDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetModuleRoles(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - GetModuleRoles;
+ 16 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUserRoles(NEA_ICS.WcfService.RoleDetails,System.String,System.String)">
+ <summary>
+ Function - GetUserRoles;
+ 18 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateModuleRole(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - UpdateModuleRole;
+ 16 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateUserRole(NEA_ICS.WcfService.RoleDetails,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - UpdateUserRole;
+ 20 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <param name="consumerList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.CheckNRIC(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - CheckNRIC;
+ 23 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddUserRole(NEA_ICS.WcfService.RoleDetails,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - AddUserRole;
+ 24 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <param name="consumerList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteUserRole(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - DeleteUserRole;
+ 26 Jan 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetModuleAccess(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - GetModuleAccess;
+ 09 Feb 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetModuleAccessRights(NEA_ICS.WcfService.RoleDetails)">
+ <summary>
+ Function - GetModuleAccessRights;
+ 11 Feb 09 - Jianfa;
+ </summary>
+ <param name="roleDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetConsumers(NEA_ICS.WcfService.ConsumerDetails,System.String,System.String)">
+ <summary>
+ Function - GetConsumers;
+ 24 Jan 09 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <param name="sortExpression"></param>
+ <param name="sortDirection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetConsumerRef(NEA_ICS.WcfService.ConsumerDetails)">
+ <summary>
+ Function - GetConsumerRef;
+ 20 Jan 2009 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetConsumerRefByUserID(NEA_ICS.WcfService.ConsumerDetails)">
+ <summary>
+ Function - GetConsumerRefByUserID;
+ 20 Jan 2009 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddConsumer(NEA_ICS.WcfService.ConsumerDetails,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - AddConsumer;
+ 24 Jan 09 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <param name="userList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUsers(NEA_ICS.WcfService.ConsumerDetails)">
+ <summary>
+ Function - GetUsers;
+ 29 Jan 09 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetUserRef(NEA_ICS.WcfService.ConsumerDetails)">
+ <summary>
+ Function - GetUserRef;
+ 29 Jan 09 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateConsumer(NEA_ICS.WcfService.ConsumerDetails,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - UpdateConsumer;
+ 29 Jan 09 - Jianfa;
+ </summary>
+ <param name="consumerDetails"></param>
+ <param name="userList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.Service.ColumnName">
+ <summary>
+ Enum for the column name to be used;
+ 07 Feb 09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.Service.ModuleName">
+ <summary>
+ Enum for the Module to be used;
+ 19Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.FieldIsUnique(System.String,NEA_ICS.WcfService.Service.ColumnName,System.String,System.String)">
+ <summary>
+ Check the field if it is a Unique value;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="columnName"></param>
+ <param name="columnValue"></param>
+ <param name="pkColumnValue"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetMoreItemInfo(System.String,System.String,System.DateTime)">
+ <summary>
+ Get More Item Info
+ 08Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="stockItem"></param>
+ <param name="asOfDte"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetLastSerialNo(System.String,NEA_ICS.WcfService.Service.ModuleName)">
+ <summary>
+ Get the Last Serial No for the given table name;
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="moduleName"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.WithinFinancialCutoff(System.String,System.DateTime)">
+ <summary>
+ Check Financial Cutoff date, if within return TRUE;
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="tranDte"></param>
+ <returns>True = within; False = Not within</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteAllStockTransaction(System.String,System.String,NEA_ICS.WcfService.Service.ModuleName,System.DateTime,System.String)">
+ <summary>
+ Delete all stock transaction for a single document Reference (receive, issue, adjustment) on a specific date;
+ 11Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="docNo"></param>
+ <param name="stockControlType"></param>
+ <param name="originalDte"></param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddOrder(NEA_ICS.WcfService.OrderDetails,System.Collections.Generic.List{NEA_ICS.WcfService.OrderItemDetails})">
+ <summary>
+ Add Order n Order Items
+ 05Feb09 - KG;
+ </summary>
+ <param name="orderDetails"></param>
+ <param name="orderItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetOrder(System.String,System.String)">
+ <summary>
+ Get Order
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetOrderItem(System.String,System.String,System.Boolean)">
+ <summary>
+ Get Order Item
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="orderId"></param>
+ <returns>Order Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateOrder(NEA_ICS.WcfService.OrderDetails,System.Collections.Generic.List{NEA_ICS.WcfService.OrderItemDetails})">
+ <summary>
+ Update Order or OrderItem or Both Details, based on the orderitem's mode to either Delete, Insert or Update;
+ 05Feb09 - KG;
+ </summary>
+ <param name="orderDetails"></param>
+ <param name="orderItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteOrder(System.String,System.String,System.String,System.String)">
+ <summary>
+ Delete Order and Order Items details;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="orderId"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetOrderList(System.String,System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get all Order list by parameters;
+ when orderID is with value, ignore other parameters and get only order items relates to the single Order Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="orderID"></param>
+ <returns>Orders DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddDirectIssue(NEA_ICS.WcfService.DirectIssueDetails,System.Collections.Generic.List{NEA_ICS.WcfService.DirectIssueDetails},System.String@)">
+ <summary>
+ Function - AddDirectIssue;
+ 13 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <param name="directIssueItemList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteDirectIssue(NEA_ICS.WcfService.DirectIssueDetails)">
+ <summary>
+ Function - DeleteDirectIssue;
+ 14 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateDirectIssue(NEA_ICS.WcfService.DirectIssueDetails,System.Collections.Generic.List{NEA_ICS.WcfService.DirectIssueDetails})">
+ <summary>
+ Function - UpdateDirectIssue;
+ 18 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <param name="directIssueItemList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetDirectIssueID(NEA_ICS.WcfService.DirectIssueDetails)">
+ <summary>
+ Function - GetDirectIssueID;
+ 14 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetDirectIssueInfo(NEA_ICS.WcfService.DirectIssueDetails)">
+ <summary>
+ Function  - GetDirectIssueInfo;
+ 18 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <returns></returns>
+ <remarks>
+ Change Requirement:
+ 1) To use 'GetLastSerialNo' instead
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetDirectIssueList(System.String,System.DateTime,System.DateTime,System.String)">
+ <summary>
+ Function - GetDirectIssueList
+ 25 Feb 09 - Guo Feng;
+ </summary>
+ <param name="storeID"></param>
+ <param name="dteIssueFrom"></param>
+ <param name="dteIssueTo"></param>
+ <param name="docNo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetDirectIssues(NEA_ICS.WcfService.DirectIssueDetails)">
+ <summary>
+ Function - GetDirectIssues;
+ 14 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetDirectIssueItems(NEA_ICS.WcfService.DirectIssueDetails)">
+ <summary>
+ Function - GetDirectIssueItems;
+ 14 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetReceiveItem(System.String,System.String,System.DateTime)">
+ <summary>
+ Get the Receive Items for a single Order Reference on a specific date;
+ including the outstanding quantity for this order item remaining as current;
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="dte"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetReceiveDte(System.String,System.String)">
+ <summary>
+ Get Receive Date under the same Order Item
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateReceiveItem(System.String,System.String,System.DateTime,System.String,System.Collections.Generic.List{NEA_ICS.WcfService.ReceiveItemDetails})">
+ <summary>
+ Update the Receive Items 
+ 12Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type"></param>
+ <param name="dte"></param>
+ <param name="receiveDetails"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetReceiveList(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get all Order list by parameters;
+ when orderID is with value, ignore other parameters and get only order items relates to the single Order Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="orderID"></param>
+ <returns>Orders DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddRequest(NEA_ICS.WcfService.RequestDetails,System.Collections.Generic.List{NEA_ICS.WcfService.IssueItemDetails})">
+ <summary>
+ Add New Request and its Item Details;
+ 20Feb09 - KG;
+ </summary>
+ <param name="requestDetails"></param>
+ <param name="ItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetRequest(System.String,System.String)">
+ <summary>
+ Get Request based on status, default all Open Request only;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetRequestBySearch(NEA_ICS.WcfService.RequestDetails)">
+ <summary>
+ Get Request by search criteria list;
+ 26Feb09 - KG;
+ </summary>
+ <param name="requestDetails"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetRequestItem(System.String,System.String)">
+ <summary>
+ Get Request Item
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="requestId"></param>
+ <returns>Request Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateRequest(System.String,System.String,System.String,System.Collections.Generic.List{NEA_ICS.WcfService.IssueItemDetails})">
+ <summary>
+ Update only to RequestItem Details, based on the requestitem's mode to either Delete, Insert or Update;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="loginUser"></param>
+ <param name="requestItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteRequest(System.String,System.String,System.String,System.String)">
+ <summary>
+ Delete Request and Request Items details;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeId"></param>
+ <param name="requestId"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateRequestStatus(System.String,System.String,System.String,System.String)">
+ <summary>
+ Update Request Status to either Approved or Rejected;
+ 23Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="status">Approved, Rejected</param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateAdjustStatus(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.DateTime,System.String,System.DateTime)">
+ <summary>
+ Update Adjust Status to either Approved or Rejected;
+ 01Mar12 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID"></param>
+ <param name="status">Approved, Rejected</param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateIssueItem(NEA_ICS.WcfService.RequestDetails,System.Collections.Generic.List{NEA_ICS.WcfService.IssueItemDetails})">
+ <summary>
+ Update the Issue Items base on the Mode either Insert, Update or Delete transaction;
+ 14Feb09 - KG;
+ </summary>
+ <param name="requestDetails"></param>
+ <param name="issueItemList"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetIssueList(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)">
+ <summary>
+ Get all Request list by parameters;
+ when requestID is with value, ignore other parameters and get only request items relates to the single Request Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="requestID"></param>
+ <returns>Requests DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddAdjust(NEA_ICS.WcfService.AdjustDetails,System.Collections.Generic.List{NEA_ICS.WcfService.AdjustItemDetails})">
+ <summary>
+ Add New Adjust and its Item Details also to stock transaction;
+ 20Feb09 - KG;
+ </summary>
+ <param name="adjustDetails"></param>
+ <param name="adjustItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAdjust(System.String,System.String,System.String)">
+ <summary>
+ Get Adjust based on type(AI or AO) n status, all adjust is created as "C" only;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type">AI = Inwards, AO = Outwards</param>
+ <param name="status"></param>
+ <returns>Adjusts DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAdjustItem(System.String,System.String,System.String)">
+ <summary>
+ Get all Adjust items for a single Adjust Reference;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID"></param>
+ <param name="type">AI = Inwards, AO = Outwards</param>
+ <returns>Adjust Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAdjustBySearch(NEA_ICS.WcfService.AdjustDetails)">
+ <summary>
+ Get Adjust by search criteria list;
+ 09 Mar 12 - Christina;
+ </summary>
+ <param name="adjustDetails"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateAdjust(NEA_ICS.WcfService.AdjustDetails,System.Collections.Generic.List{NEA_ICS.WcfService.AdjustItemDetails})">
+ <summary>
+ Update to Adjust n AdjustItem Details, based on the adjustitem's mode to either Delete, Insert or Update;
+ 20Feb09 - KG;
+ </summary>
+ <param name="adjustDetails"></param>
+ <param name="adjustItemDetails"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteAdjust(System.String,System.String,System.String,System.DateTime,System.String)">
+ <summary>
+ Delete Adjust and all its Adjust Items n Transaction details;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustType">Inward or Outward</param>
+ <param name="adjustID"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetAdjustList(System.String,System.String,System.DateTime,System.DateTime,System.String)">
+ <summary>
+ Get the Adjust list base on parameters;
+ when adjustID is with value, ignore other parameters and get only adjust items relates to the single Adjust Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="adjustID">overwrite other parameter and return value for this adjust only</param>
+ <returns>Adjust DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetWorkSheetItems(NEA_ICS.WcfService.WorksheetDetails,System.String,System.String)">
+ <summary>
+ Function - GetWorkSheetItems;
+ 30 Jan 09 - Jianfa;
+ </summary>
+ <param name="workSheetDetails"></param>
+ <param name="sortExpression"></param>
+ <param name="sortDirection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetMarkedWorksheetItems(NEA_ICS.WcfService.WorksheetDetails,System.String,System.String)">
+ <summary>
+ Function - GetMarkedWorksheetItems
+ 12 Feb 09 - Jianfa;
+ </summary>
+ <param name="workSheetDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.AddWorkSheetItem(NEA_ICS.WcfService.WorksheetDetails,System.Collections.Generic.List{NEA_ICS.WcfService.WorksheetDetails},System.Int32@)">
+ <summary>
+ Function - AddWorkSheetItem
+ 03 Feb 09 - Jianfa;
+ </summary>
+ <param name="workSheetDetails"></param>
+ <param name="workSheetItemList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.GetWorksheetGeneratedDate(NEA_ICS.WcfService.WorksheetDetails)">
+ <summary>
+ Function - GetWorksheetGeneratedDate;
+ 06 Feb 09 - Jianfa;
+ </summary>
+ <param name="workSheetDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.UpdateWorksheet(NEA_ICS.WcfService.WorksheetDetails)">
+ <summary>
+ Function - UpdateWorksheet;
+ 06 Feb 09 - Jianfa;
+ </summary>
+ <param name="workSheetDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.Service.DeleteWorksheet(NEA_ICS.WcfService.WorksheetDetails)">
+ <summary>
+ Function - DeleteWorksheet;
+ 06 Feb 09 - Jianfa;
+ </summary>
+ <param name="worksheetDetails"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.ServiceFault">
+ <summary>
+ DataContract - ServiceFault for Exception Handling;
+ 21 Dec 08 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.AdjustDetails">
+ <summary>
+ DataContract - for Adjust Details;
+ 19Feb09, KG
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.AdjustDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ transaction record will be created directly, hence status as Closed;
+ 19Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.AdjustItemDetails">
+ <summary>
+ DataContract - for Adjust Item Details;
+ 19Feb09, KG
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.AdjustItemDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ transaction record will be created directly, hence status as Closed;
+ 19Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.AdjustList">
+ <summary>
+ DataContract - for Adjust List;
+ 22Feb09, KG
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.DirectIssueDetails">
+ <summary>
+ Data Contract for DirectIssue;
+ 12 Feb 09 - Jianfa;
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.IssueItemDetails">
+ <summary>
+ DataContract - for Issue Details;
+ 11Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.IssueItemDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 11Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.IssueList">
+ <summary>
+ DataContract - for Issue List;
+ 22Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.OrderDetails">
+ <summary>
+ DataContract - for Order Details;
+ 05Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.OrderDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 05Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.OrderItemDetails">
+ <summary>
+ DataContract - for Order Item Details;
+ 18Dec08 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.OrderItemDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 18Dec08 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.OrderList">
+ <summary>
+ DataContract - for Order List;
+ 22Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.ReceiveItemDetails">
+ <summary>
+ DataContract - for Receive Details;
+ 11Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.ReceiveItemDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 11Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.ReceiveList">
+ <summary>
+ DataContract - for Receive List;
+ 22Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.RequestDetails">
+ <summary>
+ DataContract - for Request Details;
+ 19Feb09 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.WcfService.RequestDetails.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 19Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.WcfService.WorksheetDetails">
+ <summary>
+ Data Contract - for Worksheet Details
+ 30 Jan 09 - Jianfa;
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+</members>
+</doc>

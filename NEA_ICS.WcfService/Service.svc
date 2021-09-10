@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="NEA_ICS.WcfService.Service" CodeBehind="Service.svc.vb" %>

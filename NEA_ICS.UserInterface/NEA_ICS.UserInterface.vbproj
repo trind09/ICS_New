@@ -1,0 +1,1186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22F65410-CE02-4025-AA07-F1EAE433D85D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NEA_ICS.UserInterface</RootNamespace>
+    <AssemblyName>NEA_ICS.UserInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>NEA_ICS.UserInterface.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>NEA_ICS.UserInterface.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.20229.20843, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Third Party Libraries\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DBauer.Web.UI.WebControls.DynamicControlsPlaceholder, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0cf700d027f89147">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Third Party Libraries\DynamicControlsPlaceholderDLL\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Database">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design.UI">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data.SqlCe">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MsmqDistributor, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\MsmqDistributor.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuditTrailReport\frmACommon.aspx" />
+    <Content Include="AuditTrailReport\frmAConsumer.aspx" />
+    <Content Include="AuditTrailReport\frmAEquipment.aspx" />
+    <Content Include="AuditTrailReport\frmAStore.aspx" />
+    <Content Include="AuditTrailReport\frmASupplier.aspx" />
+    <Content Include="AuditTrailReport\frmARole.aspx" />
+    <Content Include="MasterList\EmailContent.aspx" />
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ACommon.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AConsumer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AddDirectIssueResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AddWorkSheetItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdHocReportDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AEquipment.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AOrderDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AResidueDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AStockItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AStockTransactionDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AStore.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ASupplier.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AUserRole.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.CommonDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ConsumerDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.DirectIssueDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.EquipmentDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.GenerateItemIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.GetAdHocReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.IssueItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.IssueList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MoreItemInfoDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR001GetRackItemBalanceDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR002GetTransactionListDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR003IssueDocumentDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR004StockReviewListDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR005StockReturnDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListAdjustDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListIssueDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListReceiveDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListStockItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR007PeriodIssuesDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR008QuantityIssueSummaryDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR009ReorderStockItemListDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR010StockAdjustmentEntriesDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.RackItemBalanceDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ReceiveItemDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ReceiveList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.RequestDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.RoleDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.StoreDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.SupplierDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.TransactionListDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.UpdateItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.UpdateItemStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.WorksheetDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\NEA_ICS.WcfService\Service.disco" />
+    <None Include="Service References\NEA_ICS.WcfService\configuration91.svcinfo" />
+    <None Include="Service References\NEA_ICS.WcfService\configuration.svcinfo" />
+    <None Include="Service References\NEA_ICS.WcfService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adjustment\AdjustItem.ascx.designer.vb">
+      <DependentUpon>AdjustItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\AdjustItem.ascx.vb">
+      <DependentUpon>AdjustItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjustment\AdjustOutwardItem.ascx.designer.vb">
+      <DependentUpon>AdjustOutwardItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\AdjustOutwardItem.ascx.vb">
+      <DependentUpon>AdjustOutwardItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjustment\AdjustReturnItem.ascx.designer.vb">
+      <DependentUpon>AdjustReturnItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\AdjustReturnItem.ascx.vb">
+      <DependentUpon>AdjustReturnItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjustment\frmAdjustmentInwards.aspx.designer.vb">
+      <DependentUpon>frmAdjustmentInwards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\frmAdjustmentInwards.aspx.vb">
+      <DependentUpon>frmAdjustmentInwards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjustment\frmAdjustmentOutwards.aspx.designer.vb">
+      <DependentUpon>frmAdjustmentOutwards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\frmAdjustmentOutwards.aspx.vb">
+      <DependentUpon>frmAdjustmentOutwards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjustment\frmODL.aspx.designer.vb">
+      <DependentUpon>frmODL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\frmODL.aspx.vb">
+      <DependentUpon>frmODL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjustment\frmReturnAdjustment.aspx.designer.vb">
+      <DependentUpon>frmReturnAdjustment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjustment\frmReturnAdjustment.aspx.vb">
+      <DependentUpon>frmReturnAdjustment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmACommon.aspx.designer.vb">
+      <DependentUpon>frmACommon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmACommon.aspx.vb">
+      <DependentUpon>frmACommon.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAConsumer.aspx.designer.vb">
+      <DependentUpon>frmAConsumer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAConsumer.aspx.vb">
+      <DependentUpon>frmAConsumer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAEquipment.aspx.designer.vb">
+      <DependentUpon>frmAEquipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAEquipment.aspx.vb">
+      <DependentUpon>frmAEquipment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAOrder.aspx.designer.vb">
+      <DependentUpon>frmAOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAOrder.aspx.vb">
+      <DependentUpon>frmAOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAResidue.aspx.designer.vb">
+      <DependentUpon>frmAResidue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAResidue.aspx.vb">
+      <DependentUpon>frmAResidue.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAStockItem.aspx.designer.vb">
+      <DependentUpon>frmAStockItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAStockItem.aspx.vb">
+      <DependentUpon>frmAStockItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAStockTransaction.aspx.designer.vb">
+      <DependentUpon>frmAStockTransaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAStockTransaction.aspx.vb">
+      <DependentUpon>frmAStockTransaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAStore.aspx.designer.vb">
+      <DependentUpon>frmAStore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmAStore.aspx.vb">
+      <DependentUpon>frmAStore.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmASupplier.aspx.designer.vb">
+      <DependentUpon>frmASupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmASupplier.aspx.vb">
+      <DependentUpon>frmASupplier.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmARole.aspx.designer.vb">
+      <DependentUpon>frmARole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailReport\frmARole.aspx.vb">
+      <DependentUpon>frmARole.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="clsCommonFunction.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clsReportUtility.vb" />
+    <Compile Include="clsSorter.vb" />
+    <Compile Include="frmCommonLogin.aspx.designer.vb">
+      <DependentUpon>frmCommonLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCommonLogin.aspx.vb">
+      <DependentUpon>frmCommonLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmFiller.aspx.designer.vb">
+      <DependentUpon>frmFiller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiller.aspx.vb">
+      <DependentUpon>frmFiller.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmFrameTop.aspx.designer.vb">
+      <DependentUpon>frmFrameTop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmFrameTop.aspx.vb">
+      <DependentUpon>frmFrameTop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmICS.aspx.designer.vb">
+      <DependentUpon>frmICS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmICS.aspx.vb">
+      <DependentUpon>frmICS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmLogin.aspx.designer.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.aspx.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmLogout.aspx.designer.vb">
+      <DependentUpon>frmLogout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogout.aspx.vb">
+      <DependentUpon>frmLogout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmMain.aspx.designer.vb">
+      <DependentUpon>frmMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.aspx.vb">
+      <DependentUpon>frmMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmMidFrame.aspx.designer.vb">
+      <DependentUpon>frmMidFrame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMidFrame.aspx.vb">
+      <DependentUpon>frmMidFrame.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmSelectStore.aspx.designer.vb">
+      <DependentUpon>frmSelectStore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectStore.aspx.vb">
+      <DependentUpon>frmSelectStore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmTreeView.aspx.designer.vb">
+      <DependentUpon>frmTreeView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreeView.aspx.vb">
+      <DependentUpon>frmTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmUnauthorisedPageFromLogin.aspx.designer.vb">
+      <DependentUpon>frmUnauthorisedPageFromLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnauthorisedPageFromLogin.aspx.vb">
+      <DependentUpon>frmUnauthorisedPageFromLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ICS_IADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICS_IADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICS_IADataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICS_IADataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICS_IADataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICS_IADataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICS_IADataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICS_IADataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmAdhocReport.aspx.designer.vb">
+      <DependentUpon>frmAdhocReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmAdhocReport.aspx.vb">
+      <DependentUpon>frmAdhocReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmIssueDocumentDetails.aspx.designer.vb">
+      <DependentUpon>frmIssueDocumentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmIssueDocumentDetails.aspx.vb">
+      <DependentUpon>frmIssueDocumentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmPeriodicIssues.aspx.designer.vb">
+      <DependentUpon>frmPeriodicIssues.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmPeriodicIssues.aspx.vb">
+      <DependentUpon>frmPeriodicIssues.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmQtyIssueSummary.aspx.designer.vb">
+      <DependentUpon>frmQtyIssueSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmQtyIssueSummary.aspx.vb">
+      <DependentUpon>frmQtyIssueSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmRackItemBalance.aspx.designer.vb">
+      <DependentUpon>frmRackItemBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmRackItemBalance.aspx.vb">
+      <DependentUpon>frmRackItemBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmReorderStockItem.aspx.designer.vb">
+      <DependentUpon>frmReorderStockItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmReorderStockItem.aspx.vb">
+      <DependentUpon>frmReorderStockItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockAdjustmentEntries.aspx.designer.vb">
+      <DependentUpon>frmStockAdjustmentEntries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockAdjustmentEntries.aspx.vb">
+      <DependentUpon>frmStockAdjustmentEntries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockReturn.aspx.designer.vb">
+      <DependentUpon>frmStockReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockReturn.aspx.vb">
+      <DependentUpon>frmStockReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockReturnCheckList.aspx.designer.vb">
+      <DependentUpon>frmStockReturnCheckList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockReturnCheckList.aspx.vb">
+      <DependentUpon>frmStockReturnCheckList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockReviewList.aspx.designer.vb">
+      <DependentUpon>frmStockReviewList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmStockReviewList.aspx.vb">
+      <DependentUpon>frmStockReviewList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementReport\frmTransactionListing.aspx.designer.vb">
+      <DependentUpon>frmTransactionListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementReport\frmTransactionListing.aspx.vb">
+      <DependentUpon>frmTransactionListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\EmailContent.aspx.designer.vb">
+      <DependentUpon>EmailContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\EmailContent.aspx.vb">
+      <DependentUpon>EmailContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\frmCommon.aspx.designer.vb">
+      <DependentUpon>frmCommon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmCommon.aspx.vb">
+      <DependentUpon>frmCommon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb" />
+    <Compile Include="MasterList\frmRole.aspx.designer.vb">
+      <DependentUpon>frmRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmRole.aspx.vb">
+      <DependentUpon>frmRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\frmStore.aspx.designer.vb">
+      <DependentUpon>frmStore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmStore.aspx.vb">
+      <DependentUpon>frmStore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\frmEquipment.aspx.designer.vb">
+      <DependentUpon>frmEquipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmEquipment.aspx.vb">
+      <DependentUpon>frmEquipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\frmConsumer.aspx.designer.vb">
+      <DependentUpon>frmConsumer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmConsumer.aspx.vb">
+      <DependentUpon>frmConsumer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\frmSupplier.aspx.designer.vb">
+      <DependentUpon>frmSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmSupplier.aspx.vb">
+      <DependentUpon>frmSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterList\frmItem.aspx.designer.vb">
+      <DependentUpon>frmItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterList\frmItem.aspx.vb">
+      <DependentUpon>frmItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Service References\NEA_ICS.WcfService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="StockCard\frmStockCard.aspx.designer.vb">
+      <DependentUpon>frmStockCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StockCard\frmStockCard.aspx.vb">
+      <DependentUpon>frmStockCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\DirectIssueItem.ascx.designer.vb">
+      <DependentUpon>DirectIssueItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\DirectIssueItem.ascx.vb">
+      <DependentUpon>DirectIssueItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\frmDirectIssueItem.aspx.designer.vb">
+      <DependentUpon>frmDirectIssueItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\frmDirectIssueItem.aspx.vb">
+      <DependentUpon>frmDirectIssueItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\frmIssueItem.aspx.designer.vb">
+      <DependentUpon>frmIssueItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\frmIssueItem.aspx.vb">
+      <DependentUpon>frmIssueItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\frmOrderItem.aspx.designer.vb">
+      <DependentUpon>frmOrderItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\frmOrderItem.aspx.vb">
+      <DependentUpon>frmOrderItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\frmReceiveItem.aspx.designer.vb">
+      <DependentUpon>frmReceiveItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\frmReceiveItem.aspx.vb">
+      <DependentUpon>frmReceiveItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\IssueItem.ascx.designer.vb">
+      <DependentUpon>IssueItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\IssueItem.ascx.vb">
+      <DependentUpon>IssueItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\OrderItem.ascx.designer.vb">
+      <DependentUpon>OrderItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\OrderItem.ascx.vb">
+      <DependentUpon>OrderItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockControl\ReceiveItem.ascx.designer.vb">
+      <DependentUpon>ReceiveItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="StockControl\ReceiveItem.ascx.vb">
+      <DependentUpon>ReceiveItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmUnauthorisedPage.aspx.designer.vb">
+      <DependentUpon>frmUnauthorisedPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnauthorisedPage.aspx.vb">
+      <DependentUpon>frmUnauthorisedPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserAuditReport\frmInactiveUsers.aspx.designer.vb">
+      <DependentUpon>frmInactiveUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuditReport\frmInactiveUsers.aspx.vb">
+      <DependentUpon>frmInactiveUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAuditReport\frmInvalidAccountLogin.aspx.designer.vb">
+      <DependentUpon>frmInvalidAccountLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuditReport\frmInvalidAccountLogin.aspx.vb">
+      <DependentUpon>frmInvalidAccountLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAuditReport\frmNewUsers.aspx.designer.vb">
+      <DependentUpon>frmNewUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuditReport\frmNewUsers.aspx.vb">
+      <DependentUpon>frmNewUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAuditReport\frmUserActivities.aspx.designer.vb">
+      <DependentUpon>frmUserActivities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuditReport\frmUserActivities.aspx.vb">
+      <DependentUpon>frmUserActivities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAuditReport\frmUserUnsuccessfulLogins.aspx.designer.vb">
+      <DependentUpon>frmUserUnsuccessfulLogins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuditReport\frmUserUnsuccessfulLogins.aspx.vb">
+      <DependentUpon>frmUserUnsuccessfulLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Worksheet\frmPrintVerificationWorksheet.aspx.designer.vb">
+      <DependentUpon>frmPrintVerificationWorksheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Worksheet\frmPrintVerificationWorksheet.aspx.vb">
+      <DependentUpon>frmPrintVerificationWorksheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Worksheet\frmUpdateVerificationResults.aspx.designer.vb">
+      <DependentUpon>frmUpdateVerificationResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Worksheet\frmUpdateVerificationResults.aspx.vb">
+      <DependentUpon>frmUpdateVerificationResults.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Worksheet\frmVerificationWorksheet.aspx.designer.vb">
+      <DependentUpon>frmVerificationWorksheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Worksheet\frmVerificationWorksheet.aspx.vb">
+      <DependentUpon>frmVerificationWorksheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Adjustment\rptAdjustList.rdlc" />
+    <Content Include="AuditTrailReport\rptAOrder.rdlc">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="AuditTrailReport\rptAOrderCover.rdlc">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="AuditTrailReport\rptAStockTransaction.rdlc" />
+    <Content Include="AuditTrailReport\rptAStockTransactionCover.rdlc" />
+    <Content Include="ManagementReport\rptAdHocReport.rdlc" />
+    <Content Include="ManagementReport\rptMR001GetRackItemBalance.rdlc">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ManagementReport\rptMR002GetTransactionList.rdlc">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ManagementReport\rptMR003IssueDocumentDetails.rdlc" />
+    <Content Include="ManagementReport\rptMR004StockReviewList.rdlc">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ManagementReport\rptMR005StockReturn.rdlc">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ManagementReport\rptMR006StockReturnCheckListAdjust.rdlc" />
+    <Content Include="ManagementReport\rptMR006StockReturnCheckListIssue.rdlc" />
+    <Content Include="ManagementReport\rptMR006StockReturnCheckListIssueConsumer.rdlc" />
+    <Content Include="ManagementReport\rptMR006StockReturnCheckListReceive.rdlc" />
+    <Content Include="ManagementReport\rptMR006StockReturnCheckListStockItem.rdlc" />
+    <Content Include="ManagementReport\rptMR007PeriodIssues.rdlc" />
+    <Content Include="ManagementReport\rptMR008QuantityIssueSummary.rdlc" />
+    <Content Include="ManagementReport\rptMR009ReorderStockItemList.rdlc" />
+    <Content Include="ManagementReport\rptMR010StockAdjustmentEntries.rdlc" />
+    <Content Include="MasterList\rptSupplier.rdlc" />
+    <EmbeddedResource Include="Adjustment\rptReturnList.rdlc" />
+    <Content Include="AuditTrailReport\rptAConsumerCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptACommon.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailReport\rptAEquipmentCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptAStore.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailReport\rptAStoreCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptASupplier.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptACommonCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptAConsumer.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailReport\rptAEquipment.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptAStockItem.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailReport\rptAStockItemCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptAStockResidue.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptAStockResidueCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptASupplierCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptAUserRole.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailReport\rptAUserRoleCover.rdlc" />
+    <EmbeddedResource Include="AuditTrailReport\rptBlankReport.rdlc" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAuditReport\rptAR001GetUserActivities.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAuditReport\rptAR002GetUserUnsuccessfulLogin.rdlc" />
+    <EmbeddedResource Include="UserAuditReport\rptAR003GetNonIcsUserUnsuccessfulLogin.rdlc" />
+    <EmbeddedResource Include="UserAuditReport\rptAR004GetNewUserCreated.rdlc" />
+    <EmbeddedResource Include="UserAuditReport\rptAR005GetInactiveUsers.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="StockCard\rptStockCard.rdlc" />
+    <Content Include="StockControl\rptDirectIssueList.rdlc" />
+    <Content Include="StockControl\rptIssueList.rdlc" />
+    <Content Include="StockControl\rptOrderList.rdlc" />
+    <Content Include="StockControl\rptRecieveList.rdlc" />
+    <Content Include="Worksheet\rptVerificationWorksheetNoQty.rdlc" />
+    <Content Include="Worksheet\rptVerificationWorksheet.rdlc" />
+    <Content Include="Worksheet\rptVerificationWorksheetCover.rdlc" />
+    <Content Include="MasterList\rptItem.rdlc" />
+    <Content Include="MasterList\rptConsumer.rdlc" />
+    <Content Include="MasterList\rptEquipment.rdlc" />
+    <Content Include="MasterList\rptStore.rdlc" />
+    <Content Include="MasterList\rptUser.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3rd Party DLLs\AjaxControlToolkit.dll" />
+    <Content Include="Adjustment\AdjustItem.ascx" />
+    <Content Include="Adjustment\AdjustOutwardItem.ascx" />
+    <Content Include="Adjustment\AdjustReturnItem.ascx" />
+    <Content Include="Adjustment\frmAdjustmentInwards.aspx" />
+    <Content Include="Adjustment\frmAdjustmentOutwards.aspx" />
+    <Content Include="Adjustment\frmODL.aspx" />
+    <Content Include="Adjustment\frmReturnAdjustment.aspx" />
+    <Content Include="AuditTrailReport\frmAOrder.aspx" />
+    <Content Include="AuditTrailReport\frmAResidue.aspx" />
+    <Content Include="AuditTrailReport\frmAStockItem.aspx" />
+    <Content Include="AuditTrailReport\frmAStockTransaction.aspx" />
+    <Content Include="frmCommonLogin.aspx" />
+    <Content Include="frmFiller.aspx" />
+    <Content Include="frmFrameTop.aspx" />
+    <Content Include="frmICS.aspx" />
+    <Content Include="frmLogin.aspx" />
+    <Content Include="frmLogout.aspx" />
+    <Content Include="frmMain.aspx" />
+    <Content Include="frmMidFrame.aspx" />
+    <Content Include="frmSelectStore.aspx" />
+    <Content Include="frmTreeView.aspx" />
+    <Content Include="frmUnauthorisedPageFromLogin.aspx" />
+    <Content Include="GenericError.htm" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\adjustment_inwards_details.gif" />
+    <Content Include="Images\adjustment_outwards_details.gif" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\cancel.gif" />
+    <Content Include="Images\consumer_details.gif" />
+    <Content Include="Images\delete.gif" />
+    <Content Include="Images\direct_issue_details.gif" />
+    <Content Include="Images\edit.gif" />
+    <Content Include="Images\equipment_details.gif" />
+    <Content Include="Images\Filler.jpg" />
+    <Content Include="Images\fld.gif" />
+    <Content Include="Images\ICS.jpg" />
+    <Content Include="Images\fld_exp.gif" />
+    <Content Include="Images\ICSBanner.jpg" />
+    <Content Include="Images\issue_details.gif" />
+    <Content Include="Images\ItemReceived.gif" />
+    <Content Include="Images\item_details.gif" />
+    <Content Include="Images\login.gif" />
+    <Content Include="Images\login.jpg" />
+    <Content Include="Images\login_14.gif" />
+    <Content Include="Images\mainmenuv2_nealogo.gif" />
+    <Content Include="Images\ModuleHeader.gif" />
+    <Content Include="Images\module_details.gif" />
+    <Content Include="Images\NEA_Color_Logo.gif" />
+    <Content Include="Images\NEA_Logo.jpg" />
+    <Content Include="Images\OrderItem.jpg" />
+    <Content Include="Images\order_details.gif" />
+    <Content Include="Images\orgbkg.gif" />
+    <Content Include="Images\po_item.gif" />
+    <Content Include="Images\progress.gif" />
+    <Content Include="Images\receive_details.gif" />
+    <Content Include="Images\Reorder.gif" />
+    <Content Include="Images\request_details.gif" />
+    <Content Include="Images\role_details.gif" />
+    <Content Include="Images\save.gif" />
+    <Content Include="Images\search_details.gif" />
+    <Content Include="Images\search_details.jpg" />
+    <Content Include="Images\search_results.gif" />
+    <Content Include="Images\select.gif" />
+    <Content Include="Images\select_conditions.gif" />
+    <Content Include="Images\select_data_items.gif" />
+    <Content Include="Images\StockObsoleteDamageDetails.gif" />
+    <Content Include="Images\StockReturnDetails.gif" />
+    <Content Include="Images\stop.gif" />
+    <Content Include="Images\store_details.gif" />
+    <Content Include="Images\supplier_details.gif" />
+    <Content Include="Images\usermanual.jpg" />
+    <Content Include="Images\verification_worksheet.gif" />
+    <Content Include="login.aspx" />
+    <Content Include="ManagementReport\frmAdhocReport.aspx" />
+    <Content Include="ManagementReport\frmIssueDocumentDetails.aspx" />
+    <Content Include="ManagementReport\frmPeriodicIssues.aspx" />
+    <Content Include="ManagementReport\frmQtyIssueSummary.aspx" />
+    <Content Include="ManagementReport\frmRackItemBalance.aspx" />
+    <Content Include="ManagementReport\frmReorderStockItem.aspx" />
+    <Content Include="ManagementReport\frmStockAdjustmentEntries.aspx" />
+    <Content Include="ManagementReport\frmStockReturn.aspx" />
+    <Content Include="ManagementReport\frmStockReturnCheckList.aspx" />
+    <Content Include="ManagementReport\frmStockReviewList.aspx" />
+    <Content Include="ManagementReport\frmTransactionListing.aspx" />
+    <Content Include="MasterList\frmCommon.aspx" />
+    <Content Include="MasterList\frmRole.aspx" />
+    <Content Include="MasterList\frmStore.aspx" />
+    <Content Include="MasterList\frmEquipment.aspx" />
+    <Content Include="MasterList\frmConsumer.aspx" />
+    <Content Include="MasterList\frmSupplier.aspx" />
+    <Content Include="MasterList\frmItem.aspx" />
+    <Content Include="ICS_IADataSet.xsc">
+      <DependentUpon>ICS_IADataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="ICS_IADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICS_IADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ICS_IADataSet.xss">
+      <DependentUpon>ICS_IADataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="ICS_IADataSet1.xsc">
+      <DependentUpon>ICS_IADataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="ICS_IADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICS_IADataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ICS_IADataSet1.xss">
+      <DependentUpon>ICS_IADataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="ICS_IADataSet2.xsc">
+      <DependentUpon>ICS_IADataSet2.xsd</DependentUpon>
+    </Content>
+    <None Include="ICS_IADataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICS_IADataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ICS_IADataSet2.xss">
+      <DependentUpon>ICS_IADataSet2.xsd</DependentUpon>
+    </Content>
+    <Content Include="ICS_IADataSet3.xsc">
+      <DependentUpon>ICS_IADataSet3.xsd</DependentUpon>
+    </Content>
+    <None Include="ICS_IADataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICS_IADataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ICS_IADataSet3.xss">
+      <DependentUpon>ICS_IADataSet3.xsd</DependentUpon>
+    </Content>
+    <None Include="log\trace.log" />
+    <None Include="My Project\DataSources\System.Data.DataSet.datasource" />
+    <None Include="My Project\PublishProfiles\Web App.pubxml" />
+    <Content Include="Script\NEA_ICS.js" />
+    <Content Include="StockCard\frmStockCard.aspx" />
+    <Content Include="StockControl\DirectIssueItem.ascx" />
+    <Content Include="StockControl\frmDirectIssueItem.aspx" />
+    <Content Include="StockControl\frmIssueItem.aspx" />
+    <Content Include="StockControl\frmOrderItem.aspx" />
+    <Content Include="StockControl\frmReceiveItem.aspx" />
+    <Content Include="StockControl\IssueItem.ascx" />
+    <Content Include="StockControl\OrderItem.ascx" />
+    <Content Include="StockControl\ReceiveItem.ascx" />
+    <Content Include="frmUnauthorisedPage.aspx" />
+    <Content Include="Style\ICS.css" />
+    <Content Include="UserAuditReport\frmInactiveUsers.aspx" />
+    <Content Include="UserAuditReport\frmInvalidAccountLogin.aspx" />
+    <Content Include="UserAuditReport\frmNewUsers.aspx" />
+    <Content Include="UserAuditReport\frmUserActivities.aspx" />
+    <Content Include="UserAuditReport\frmUserUnsuccessfulLogins.aspx" />
+    <Content Include="verify.aspx" />
+    <Content Include="Worksheet\frmPrintVerificationWorksheet.aspx" />
+    <Content Include="Worksheet\frmUpdateVerificationResults.aspx" />
+    <Content Include="Worksheet\frmVerificationWorksheet.aspx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\NEA_ICS.WcfService\Service.wsdl" />
+    <None Include="Service References\NEA_ICS.WcfService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NEA_ICS.WcfService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NEA_ICS.WcfService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NEA_ICS.WcfService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NEA_ICS.WcfService\Service4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserManual\UserManual.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\NEA_ICS.WcfService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53696</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

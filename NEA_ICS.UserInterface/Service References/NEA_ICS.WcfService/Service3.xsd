@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:1651/Service.svc?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" />
+  <xs:import schemaLocation="http://localhost:1651/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="UpdateReceiveItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="receiveDetails" nillable="true" type="q1:ArrayOfReceiveItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateReceiveItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateReceiveItemResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiveList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fromStockItemID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="toStockItemID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiveListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetReceiveListResult" nillable="true" type="q2:ArrayOfReceiveList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="requestDetails" nillable="true" type="q3:RequestDetails" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="requestItemDetails" nillable="true" type="q4:ArrayOfIssueItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddRequestResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetRequestResult" nillable="true" type="q5:ArrayOfRequestDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRequestBySearch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="requestDetails" nillable="true" type="q6:RequestDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRequestBySearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetRequestBySearchResult" nillable="true" type="q7:ArrayOfRequestDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRequestItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRequestItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetRequestItemResult" nillable="true" type="q8:ArrayOfIssueItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="requestItemDetails" nillable="true" type="q9:ArrayOfIssueItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRequestResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteRequestResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRequestStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRequestStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRequestStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAdjustStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="adjustID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="adjustType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="returnBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="returnDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="approveBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="approveDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="receiveBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="receiveDte" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAdjustStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateAdjustStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateIssueItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="requestDetails" nillable="true" type="q10:RequestDetails" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="issueItemList" nillable="true" type="q11:ArrayOfIssueItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateIssueItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateIssueItemResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIssueList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fromStockItemID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="toStockItemID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="consumerID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIssueListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetIssueListResult" nillable="true" type="q12:ArrayOfIssueList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddAdjust">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="adjustDetails" nillable="true" type="q13:AdjustDetails" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="adjustItemDetails" nillable="true" type="q14:ArrayOfAdjustItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddAdjustResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddAdjustResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjust">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAdjustResult" nillable="true" type="q15:ArrayOfAdjustDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="adjustID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAdjustItemResult" nillable="true" type="q16:ArrayOfAdjustItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustBySearch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="adjustDetails" nillable="true" type="q17:AdjustDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustBySearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAdjustBySearchResult" nillable="true" type="q18:ArrayOfAdjustDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAdjust">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="adjustDetails" nillable="true" type="q19:AdjustDetails" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="adjustItemDetails" nillable="true" type="q20:ArrayOfAdjustItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAdjustResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateAdjustResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAdjust">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="adjustID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="adjustType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="originalDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAdjustResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteAdjustResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="adjustID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdjustListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAdjustListResult" nillable="true" type="q21:ArrayOfAdjustList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailStockItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="auditType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="itemStatus" type="xs:boolean" />
+        <xs:element minOccurs="0" name="orderBy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailStockItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailStockItemResult" nillable="true" type="q22:ArrayOfAStockItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="auditType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderBy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailOrderResult" nillable="true" type="q23:ArrayOfAOrderDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailStockTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="auditType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderBy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailStockTransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailStockTransactionResult" nillable="true" type="q24:ArrayOfAStockTransactionDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailResidue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="month" type="xs:int" />
+        <xs:element minOccurs="0" name="year" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailResidueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailResidueResult" nillable="true" type="q25:ArrayOfAResidueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailACommon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailACommonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailACommonResult" nillable="true" type="q26:ArrayOfACommon" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAConsumer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAConsumerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailAConsumerResult" nillable="true" type="q27:ArrayOfAConsumer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAEquipment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAEquipmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailAEquipmentResult" nillable="true" type="q28:ArrayOfAEquipment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAStoreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailAStoreResult" nillable="true" type="q29:ArrayOfAStore" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailASupplier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailASupplierResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailASupplierResult" nillable="true" type="q30:ArrayOfASupplier" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAuditTrailAUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAuditTrailAUserRoleResult" nillable="true" type="q31:ArrayOfAUserRole" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRackItemBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rackLocationFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rackLocationTo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRackItemBalanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetRackItemBalanceResult" nillable="true" type="q32:ArrayOfRackItemBalanceDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetStockCodeResult" nillable="true" type="q33:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRackLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRackLocationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetRackLocationResult" nillable="true" type="q34:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTransactionList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTransactionListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetTransactionListResult" nillable="true" type="q35:ArrayOfTransactionListDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR001GetRackItemBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rackLocationFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rackLocationTo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR001GetRackItemBalanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR001GetRackItemBalanceResult" nillable="true" type="q36:ArrayOfMR001GetRackItemBalanceDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR002GetTransactionList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="directIssue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="equipmentID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR002GetTransactionListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR002GetTransactionListResult" nillable="true" type="q37:ArrayOfMR002GetTransactionListDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR003IssueDocumentDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="directIssue" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR003IssueDocumentDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR003IssueDocumentDetailsResult" nillable="true" type="q38:ArrayOfMR003IssueDocumentDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR004StockReviewList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR004StockReviewListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR004StockReviewListResult" nillable="true" type="q39:ArrayOfMR004StockReviewListDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR005StockReturn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR005StockReturnResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR005StockReturnResult" nillable="true" type="q40:ArrayOfMR005StockReturnDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListAdjust">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListAdjustResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR006StockReturnCheckListAdjustResult" nillable="true" type="q41:ArrayOfMR006StockReturnCheckListAdjustDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListIssue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListIssueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR006StockReturnCheckListIssueResult" nillable="true" type="q42:ArrayOfMR006StockReturnCheckListIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListReceive">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListReceiveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR006StockReturnCheckListReceiveResult" nillable="true" type="q43:ArrayOfMR006StockReturnCheckListReceiveDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListStockItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="excludeZero" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR006StockReturnCheckListStockItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR006StockReturnCheckListStockItemResult" nillable="true" type="q44:ArrayOfMR006StockReturnCheckListStockItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR007PeriodIssues">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="consumerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="directIssue" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR007PeriodIssuesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR007PeriodIssuesResult" nillable="true" type="q45:ArrayOfMR007PeriodIssuesDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR008QuantityIssueSummary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR008QuantityIssueSummaryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR008QuantityIssueSummaryResult" nillable="true" type="q46:ArrayOfMR008QuantityIssueSummaryDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR009ReorderStockItemList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR009ReorderStockItemListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR009ReorderStockItemListResult" nillable="true" type="q47:ArrayOfMR009ReorderStockItemListDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR010StockAdjustmentEntries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transDateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="transDateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMR010StockAdjustmentEntriesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMR010StockAdjustmentEntriesResult" nillable="true" type="q48:ArrayOfMR010StockAdjustmentEntriesDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdHocReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="AdHocReport" nillable="true" type="q49:AdHocReportDetails" />
+        <xs:element minOccurs="0" name="returnMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdHocReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetAdHocReportResult" nillable="true" type="q50:ArrayOfAdHocReportDetails" />
+        <xs:element minOccurs="0" name="returnMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddEmailContent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="emailContent" nillable="true" type="q51:EmailContent" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddEmailContentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddEmailContentResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmailContent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="emailFormat" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmailContentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetEmailContentResult" nillable="true" type="q52:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCommon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="commonDetails" nillable="true" type="q53:CommonDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCommonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetCommonResult" nillable="true" type="q54:ArrayOfCommonDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDistinctCommon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="commonDetails" nillable="true" type="q55:CommonDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDistinctCommonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetDistinctCommonResult" nillable="true" type="q56:ArrayOfCommonDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCommon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="commonDetails" nillable="true" type="q57:CommonDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCommonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddCommonResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCommon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="commonDetails" nillable="true" type="q58:CommonDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCommonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateCommonResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStoreAccess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q59:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStoreAccessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetStoreAccessResult" nillable="true" type="q60:ArrayOfStoreDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q61:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserProfileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUserProfileResult" nillable="true" type="q62:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserStoreCodes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserStoreCodesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUserStoreCodesResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserLogins">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="checkIfLogout" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserLoginsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUserLoginsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckUserIdExist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckUserIdExistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckUserIdExistResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRoleStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRoleStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUserRoleStatusResult" nillable="true" type="q63:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserActivityList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="byTimeStamp" type="xs:boolean" />
+        <xs:element minOccurs="0" name="filterBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortBy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserActivityListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUserActivityListResult" nillable="true" type="q64:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserUnsuccessfulLoginList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="sortBy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserUnsuccessfulLoginListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUserUnsuccessfulLoginListResult" nillable="true" type="q65:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewUserAccountList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="sortBy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewUserAccountListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetNewUserAccountListResult" nillable="true" type="q66:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNonIcsUserUnsuccessfulLogin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNonIcsUserUnsuccessfulLoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetNonIcsUserUnsuccessfulLoginResult" nillable="true" type="q67:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInactiveUsers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInactiveUsersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetInactiveUsersResult" nillable="true" type="q68:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddUserAudit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isNonIcsUser" type="xs:boolean" />
+        <xs:element minOccurs="0" name="isInactiveUser" type="xs:boolean" />
+        <xs:element minOccurs="0" name="isUnsuccessfulLogin" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddUserAuditResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddUserAuditResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUserAudit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q69:RoleDetails" />
+        <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUserAuditResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateUserAuditResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ManageInactiveUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ManageInactiveUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ManageInactiveUserResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ManageFinancialClosing">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ManageFinancialClosingResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuppliers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="supplierDetails" nillable="true" type="q70:SupplierDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuppliersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetSuppliersResult" nillable="true" type="q71:ArrayOfSupplierDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddSupplier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="supplierDetails" nillable="true" type="q72:SupplierDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddSupplierResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddSupplierResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSupplier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="supplierDetails" nillable="true" type="q73:SupplierDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSupplierResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateSupplierResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSupplierStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="supplierDetails" nillable="true" type="q74:SupplierDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSupplierStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateSupplierStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddEquipment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="equipmentDetails" nillable="true" type="q75:EquipmentDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddEquipmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddEquipmentResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEquipments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="equipmentDetails" nillable="true" type="q76:EquipmentDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEquipmentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetEquipmentsResult" nillable="true" type="q77:ArrayOfEquipmentDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateEquipment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="equipmentDetails" nillable="true" type="q78:EquipmentDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateEquipmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateEquipmentResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateEquipmentStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="equipmentDetails" nillable="true" type="q79:EquipmentDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateEquipmentStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateEquipmentStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="storeDetails" nillable="true" type="q80:StoreDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddStoreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddStoreResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="storeDetails" nillable="true" type="q81:StoreDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStoresResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetStoresResult" nillable="true" type="q82:ArrayOfStoreDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="storeDetails" nillable="true" type="q83:StoreDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStoreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateStoreResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStoreStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="storeDetails" nillable="true" type="q84:StoreDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStoreStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateStoreStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerateItemID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q85:ItemDetails" />
+        <xs:element minOccurs="0" name="generatedItemID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerateItemIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenerateItemIDResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="generatedItemID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q86:ItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddItemResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q87:ItemDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetItemsResult" nillable="true" type="q88:ArrayOfItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemsMasterList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="printOption" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockCodeTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="excludeStockCodeTypes" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="itemStatus" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemsMasterListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetItemsMasterListResult" nillable="true" type="q89:ArrayOfItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q90:ItemDetails" />
+        <xs:element minOccurs="0" name="transactionType" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockTransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetStockTransactionResult" nillable="true" type="q91:ArrayOfItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q92:ItemDetails" />
+        <xs:element minOccurs="0" name="returnMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateItemResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="returnMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateItemStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q93:ItemDetails" />
+        <xs:element minOccurs="0" name="returnMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateItemStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateItemStatusResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="returnMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemSearch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q94:ItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemSearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetItemSearchResult" nillable="true" type="q95:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidStockCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q96:ItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidStockCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsValidStockCodeResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="itemDetails" nillable="true" type="q97:ItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsValidStatusResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleRoles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q98:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleRolesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetModuleRolesResult" nillable="true" type="q99:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRoles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q100:RoleDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRolesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUserRolesResult" nillable="true" type="q101:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateModuleRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q102:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateModuleRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateModuleRoleResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q103:RoleDetails" />
+        <xs:element xmlns:q104="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="consumerList" nillable="true" type="q104:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateUserRoleResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckNRIC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roledetails" nillable="true" type="q105:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckNRICResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="CheckNRICResult" nillable="true" type="q106:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q107:RoleDetails" />
+        <xs:element xmlns:q108="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="consumerList" nillable="true" type="q108:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddUserRoleResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q109:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteUserRoleResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRoleIDBySoeID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="soeID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRoleIDBySoeIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUserRoleIDBySoeIDResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConsumers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q110:ConsumerDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConsumersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetConsumersResult" nillable="true" type="q111:ArrayOfConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddConsumer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q112:ConsumerDetails" />
+        <xs:element xmlns:q113="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userList" nillable="true" type="q113:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddConsumerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddConsumerResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConsumerRef">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q114:ConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConsumerRefResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetConsumerRefResult" nillable="true" type="q115:ArrayOfConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConsumerRefByUserID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q116:ConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConsumerRefByUserIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetConsumerRefByUserIDResult" nillable="true" type="q117:ArrayOfConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUsers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q118="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q118:ConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUsersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q119="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUsersResult" nillable="true" type="q119:ArrayOfConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRef">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q120="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q120:ConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserRefResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q121="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetUserRefResult" nillable="true" type="q121:ArrayOfConsumerDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateConsumer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q122="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="consumerDetails" nillable="true" type="q122:ConsumerDetails" />
+        <xs:element xmlns:q123="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userList" nillable="true" type="q123:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateConsumerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateConsumerResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleAccess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q124="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q124:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleAccessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q125="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetModuleAccessResult" nillable="true" type="q125:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleAccessRights">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q126="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="roleDetails" nillable="true" type="q126:RoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleAccessRightsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q127="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetModuleAccessRightsResult" nillable="true" type="q127:ArrayOfRoleDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWorkSheetItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q128="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetDetails" nillable="true" type="q128:WorksheetDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWorkSheetItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q129="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetWorkSheetItemsResult" nillable="true" type="q129:ArrayOfWorksheetDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddWorkSheetItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q130="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetDetails" nillable="true" type="q130:WorksheetDetails" />
+        <xs:element xmlns:q131="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetItemList" nillable="true" type="q131:ArrayOfWorksheetDetails" />
+        <xs:element minOccurs="0" name="workSheetID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddWorkSheetItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddWorkSheetItemResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="workSheetID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWorksheetGeneratedDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q132="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetDetails" nillable="true" type="q132:WorksheetDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWorksheetGeneratedDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetWorksheetGeneratedDateResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWorksheet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q133="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetDetails" nillable="true" type="q133:WorksheetDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWorksheetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateWorksheetResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteWorksheet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q134="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetDetails" nillable="true" type="q134:WorksheetDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteWorksheetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteWorksheetResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMarkedWorksheetItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q135="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="workSheetDetails" nillable="true" type="q135:WorksheetDetails" />
+        <xs:element minOccurs="0" name="sortExpression" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sortDirection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMarkedWorksheetItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q136="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMarkedWorksheetItemsResult" nillable="true" type="q136:ArrayOfWorksheetDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FieldIsUnique">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element xmlns:q137="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="columnName" type="q137:Service.ColumnName" />
+        <xs:element minOccurs="0" name="columnValue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pkColumnValue" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FieldIsUniqueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FieldIsUniqueResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMoreItemInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stockItem" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="asOfDte" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMoreItemInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q138="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetMoreItemInfoResult" nillable="true" type="q138:MoreItemInfoDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastSerialNo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element xmlns:q139="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="moduleName" type="q139:Service.ModuleName" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastSerialNoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLastSerialNoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WithinFinancialCutoff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tranDte" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WithinFinancialCutoffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WithinFinancialCutoffResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAllStockTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="docNo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q140="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="stockControlType" type="q140:Service.ModuleName" />
+        <xs:element minOccurs="0" name="originalDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAllStockTransactionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q141="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="orderDetails" nillable="true" type="q141:OrderDetails" />
+        <xs:element xmlns:q142="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="orderItemDetails" nillable="true" type="q142:ArrayOfOrderItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddOrderResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q143="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetOrderResult" nillable="true" type="q143:ArrayOfOrderDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unfullfillOnly" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q144="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetOrderItemResult" nillable="true" type="q144:ArrayOfOrderItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q145="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="orderDetails" nillable="true" type="q145:OrderDetails" />
+        <xs:element xmlns:q146="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="orderItemDetails" nillable="true" type="q146:ArrayOfOrderItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateOrderResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loginUser" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteOrderResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDte" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fromStockItemID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="toStockItemID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q147="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetOrderListResult" nillable="true" type="q147:ArrayOfOrderList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDirectIssue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q148="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q148:DirectIssueDetails" />
+        <xs:element xmlns:q149="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssueItemList" nillable="true" type="q149:ArrayOfDirectIssueDetails" />
+        <xs:element minOccurs="0" name="directIssueDocNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDirectIssueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddDirectIssueResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="directIssueDocNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q150="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q150:DirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q151="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetDirectIssueIDResult" nillable="true" type="q151:ArrayOfDirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssues">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q152="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q152:DirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssuesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q153="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetDirectIssuesResult" nillable="true" type="q153:ArrayOfDirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dteIssueFrom" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="dteIssueTo" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="docNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q154="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetDirectIssueListResult" nillable="true" type="q154:ArrayOfDirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q155="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q155:DirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q156="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetDirectIssueItemsResult" nillable="true" type="q156:ArrayOfDirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDirectIssue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q157="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q157:DirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDirectIssueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteDirectIssueResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDirectIssue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q158="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q158:DirectIssueDetails" />
+        <xs:element xmlns:q159="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssueItemList" nillable="true" type="q159:ArrayOfDirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDirectIssueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateDirectIssueResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q160="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="directIssue" nillable="true" type="q160:DirectIssueDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDirectIssueInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDirectIssueInfoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiveItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dte" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiveItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q161="http://schemas.datacontract.org/2004/07/NEA_ICS.WcfService" minOccurs="0" name="GetReceiveItemResult" nillable="true" type="q161:ArrayOfReceiveItemDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiveDte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="storeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiveDteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q162="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetReceiveDteResult" nillable="true" type="q162:ArrayOfdateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

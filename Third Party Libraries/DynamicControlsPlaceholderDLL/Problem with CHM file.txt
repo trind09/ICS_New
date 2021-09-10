@@ -1,0 +1,2 @@
+If you run into problems with the downloaded CHM file, please check out:
+http://www.denisbauer.com/weblog/ProblemBrowsingDownloadedCHMHelpFiles.aspx

@@ -1,0 +1,1875 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NEA_ICS.Business
+</name>
+</assembly>
+<members>
+<member name="T:NEA_ICS.Business.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NEA_ICS.Business.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NEA_ICS.Business.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:NEA_ICS.Business.AccessRightsBL">
+ <summary>
+ Business Layer - for Access Rights to ICS
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetStoreAccess(System.String)">
+ <summary>
+ Function - GetStoreAccess;
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetUserProfile(System.String,System.String)">
+ <summary>
+ Function - GetUserProfile;
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetUserStoreCodes(System.String)">
+ <summary>
+ Function - GetUserStoreCodes;
+ 20 Sep 09 - Christina;
+ </summary>
+ <param name="userId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetUserLogins(System.String,System.String,System.Boolean)">
+ <summary>
+ Function - GetUserLogins;
+ 25 Aug 11 - Christina;
+ </summary>
+ <param name="userId"></param>
+ <param name="checkIfLogout"></param>
+ <param name="sessionId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.CheckUserIdExist(System.String)">
+ <summary>
+ Check if such User ID exist
+ Christina - 02 Sep 2013
+ </summary>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetUserRoleStatus(System.String,System.String)">
+ <summary>
+ Check User Roles status - inactive or deleted
+ Christina - 02 Sep 2013
+ </summary>
+ <param name="storeID"></param>
+ <param name="userId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetUserActivityList(System.String,System.String,System.DateTime,System.DateTime,System.Boolean)">
+ <summary>
+ Function - GetUserActivityList;
+ 11 Sept 13 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userId"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="byTimeStamp"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetUserUnsuccessfulLoginList(System.String,System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Function - GetUserUnsuccessfulLoginList;
+ 11 Sept 13 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetNewUserAccountList(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Function - GetNewUserAccountList;
+ 11 Sept 13 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetNonIcsUserUnsuccessfulLogin(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Function - GetNonIcsUserUnsuccessfulLogin;
+ 11 Sept 13 - Christina;
+ </summary>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetInactiveUsers(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Function - GetInactiveUsers;
+ 11 Sept 13 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.GetLastLoginDate(System.String,System.String)">
+ <summary>
+ Function - Get last login date of user;
+ 11 Sept 13 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.AddUserAudit(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ Function - AddUserAudit;
+ 02 Sept 13 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <param name="userIP"></param>
+ <param name="isNonIcsUser"></param>
+ <param name="isInactiveUser"></param>
+ <param name="isUnsuccessfulLogin"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.UpdateUserAudit(System.String,System.String,System.String)">
+ <summary>
+ Function - UpdateUserAudit
+ 16 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.ManageFinancialClosing(System.String,System.String)">
+ <summary>
+ Manage Financial Closing, update past finanical cutoff date record details;
+ 28Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.AccessRightsBL.ManageInactiveUser(System.String)">
+ <summary>
+ Update user status to inactive if user last activity is greater than or equal to 90 days, if yes deactivate user;
+ 14 Sept 2013 - Christina;
+ </summary>
+ <param name="storeID"></param>
+</member>
+<member name="T:NEA_ICS.Business.AuditTrailReportBL">
+ <summary>
+ Business Layer - for Audit Trail Report;
+ 4Jan2009 - Liu Guo Feng;
+ </summary>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailStockItem(System.String,System.DateTime,System.DateTime,System.String,System.Boolean,System.String)">
+ <summary>
+ Get Stock Item based on Parameters;
+ 4Jan2009, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="auditType"></param>
+ <returns>StockItem DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailOrder(System.String,System.DateTime,System.DateTime,System.String,System.String)">
+ <summary>
+ Get Order based on Parameters;
+ 4Jan2009, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="auditType"></param>
+ <returns>Order DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailACommon(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get common val pritpalksaur
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns>Order DataSet Collection</returns>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailAConsumer(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get common val pritpalksaur
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns>Order DataSet Collection</returns>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailAEquipment(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get common val pritpalksaur
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns>Order DataSet Collection</returns>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailAStore(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get common val pritpalksaur
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns>Order DataSet Collection</returns>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailASupplier(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get common val pritpalksaur
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns>Order DataSet Collection</returns>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailAUserRole(System.String,System.DateTime,System.DateTime)">
+ <summary>
+ Get common val pritpalksaur
+ </summary>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="Alldate"></param>
+ <returns>Order DataSet Collection</returns>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailStockTransaction(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get Stock Transaction based on Parameters;
+ 4Jan2009, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <param name="dateFrom"></param>
+ <param name="dateTo"></param>
+ <param name="auditType"></param>
+ <param name="transType"></param>
+ <returns>StockTransaction DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.AuditTrailReportBL.GetAuditTrailResidue(System.String,System.Int32,System.Int32)">
+ <summary>
+ Get Residue Cost Adjustments based on parameters
+ 18 Oct 2010 
+ </summary>
+ <param name="storeId"></param>
+ <param name="month"></param>
+ <param name="year"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.AdjustItem.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 20Feb08 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.AdjustItem.#ctor(System.Int32,System.String,System.Decimal,System.Double,System.String,System.Int32,System.Int32,System.String,System.String)">
+ <summary>
+ Initialise value with given value;
+ 20Feb08 - KG;
+ </summary>
+ <param name="tranID"></param>
+ <param name="stockItemID"></param>
+ <param name="qty"></param>
+ <param name="totalCost"></param>
+ <param name="remarks"></param>
+ <param name="itemRef"></param>
+ <param name="itemReturn"></param>
+ <param name="status"></param>
+ <param name="mode"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.DirectIssueItem.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 5 Feb 09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.DirectIssueItem.#ctor(System.String,System.String,System.String,System.Decimal,System.String,System.Decimal,System.String,System.String,System.String)">
+ <summary>
+ Sub New
+ 13 Feb 09 - Jianfa;
+ </summary>
+ <param name="itemID"></param>
+ <param name="itemDescription"></param>
+ <param name="stockType"></param>
+ <param name="itemQty"></param>
+ <param name="UOM"></param>
+ <param name="totalCost"></param>
+ <param name="remarks"></param>
+ <param name="itemStatus"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.IssueItem.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 20Feb08 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.IssueItem.#ctor(System.Int32,System.String,System.Decimal,System.String,System.Int32,System.String,System.String)">
+ <summary>
+ Initialise value with given value;
+ 20Feb08 - KG;
+ </summary>
+ <param name="tranID"></param>
+ <param name="stockItemID"></param>
+ <param name="qty"></param>
+ <param name="remarks"></param>
+ <param name="itemRef"></param>
+ <param name="status"></param>
+ <param name="mode"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.OrderItem.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 05Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.OrderItem.#ctor(System.Int32,System.String,System.Decimal,System.Double,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Initialise value with given value;
+ 05Feb09 - KG;
+ </summary>
+ <param name="OrderItemID"></param>
+ <param name="StockItemID"></param>
+ <param name="Qty"></param>
+ <param name="TotalCost"></param>
+ <param name="ExpectedDeliveryDte"></param>
+ <param name="WarrantyDte"></param>
+ <param name="Remarks"></param>
+ <param name="Status"></param>
+ <param name="Mode"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ReceiveItem.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 20Feb08 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ReceiveItem.#ctor(System.Int32,System.String,System.Decimal,System.Double,System.String,System.Int32,System.String,System.DateTime,System.String)">
+ <summary>
+ Initialise value with given value;
+ 20Feb08 - KG;
+ </summary>
+ <param name="tranID"></param>
+ <param name="stockItemID"></param>
+ <param name="qty"></param>
+ <param name="totalCost"></param>
+ <param name="remarks"></param>
+ <param name="itemRef"></param>
+ <param name="status"></param>
+ <param name="orderItemWarrantyDte"></param>
+ <param name="mode"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.RequestItem.#ctor(System.Boolean)">
+ <summary>
+ Initialise value with blank value, True;
+ 20Feb09 - KG;
+ </summary>
+ <param name="initialise"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.RequestItem.#ctor(System.String,System.String,System.Int32,System.String,System.Decimal,System.String,System.String,System.String)">
+ <summary>
+ Initialise value with given value;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="RequestID"></param>
+ <param name="RequestItemID"></param>
+ <param name="StockItemID"></param>
+ <param name="Qty"></param>
+ <param name="Status"></param>
+ <param name="LoginUser"></param>
+ <param name="Mode"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.Business.ManagementReportBL">
+ <summary>
+ Business Layer - for Management Report;
+ 29 Dec 08 - Liu Guo Feng;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy AuthorName RefID Description;
+ 29Dec08  Guo Feng               Create GetRackItemBalance;
+ 29Dec08  Guo Fng                 Create GetRackLocation;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ManagementReportBL.GetStockCode(System.String)">
+ <summary>
+ Get StockCode;
+ 29Dec08, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <returns>StockCode DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ManagementReportBL.GetRackLocation(System.String)">
+ <summary>
+ Get RackLocation;
+ 29Dec08, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <returns>RackLocation DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ManagementReportBL.GetMR001GetRackItemBalance(System.String,System.String,System.String)">
+ <summary>
+ Get RackItemBalance based on Parameters;
+ 29Dec08, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <param name="rackLocationFrom"></param>
+ <param name="rackLocationTo"></param>
+ <returns>RackItemBalance DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ManagementReportBL.GetMR002GetTransactionList(System.String,System.String,System.String,System.DateTime,System.DateTime,System.String)">
+ <summary>
+ Get TransactionList based on Parameters;
+ 29Dec08, Guo Feng
+ </summary>
+ <param name="storeId"></param>
+ <param name="stockCodeFrom"></param>
+ <param name="stockCodeTo"></param>
+ <param name="transDateFrom"></param>
+ <param name="transDateTo"></param>
+ <returns>TransactionList DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.ManagementReportBL.GetAdHocReports(System.String,System.String@)">
+ <summary>
+ Function - GetAdHocReports;
+ 30 Mar 09 - Jianfa;
+ </summary>
+ <param name="SQL"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.Business.MasterListBL">
+ <summary>
+ Business Layer - for Master List;
+ 17 Dec 2008 - Kenny GOH, Jianfa CHEN;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy AuthorName RefID Description;
+ 12Dec2008  KG      RefID  Create GetSuppliers;
+ 18Dec2008  Jianfa  RefID  Create AddSupplier;
+ 18Dec2008  KG      RefID  Modify AddSupplier;
+ 23Dec2008  Jianfa  RefID  Create GetCodeDescription;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetSuppliers(System.String,System.String,System.String,System.String)">
+ <summary>
+ Get Suppliers based on Parameters;
+ 12Dec2008, KG
+ </summary>
+ <param name="supplierId"></param>
+ <param name="companyName"></param>
+ <param name="status"></param>
+ <returns>Suppliers DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddSupplier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Add New Supplier Details;
+ 18Dec2008, Jianfa CHEN
+ </summary>
+ <param name="storeId"></param>
+ <param name="supplierId"></param>
+ <param name="companyName"></param>
+ <param name="addressType"></param>
+ <param name="addressBlockHouseNo"></param>
+ <param name="addressStreetName"></param>
+ <param name="addressFloorNo"></param>
+ <param name="addressUnitNo"></param>
+ <param name="addressBuildingName"></param>
+ <param name="addressPostalCode"></param>
+ <param name="contactPerson"></param>
+ <param name="telephoneNo"></param>
+ <param name="faxNo"></param>
+ <param name="otherInformation"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ 18Dec2008  KG  RefID  Include check for unique Supplier ID and Company Name;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateSupplier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@)">
+ <summary>
+ Update Supplier Details;
+ Jianfa CHEN, 19 Dec 2008;
+ </summary>
+ <param name="storeId"></param>
+ <param name="supplierId"></param>
+ <param name="companyName"></param>
+ <param name="addressType"></param>
+ <param name="addressBlockHouseNo"></param>
+ <param name="addressStreetName"></param>
+ <param name="addressFloorNo"></param>
+ <param name="addressUnitNo"></param>
+ <param name="addressBuildingName"></param>
+ <param name="addressPostalCode"></param>
+ <param name="contactPerson"></param>
+ <param name="telephoneNo"></param>
+ <param name="faxNo"></param>
+ <param name="otherInformation"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <param name="originalCompanyName"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ 21Dec2008  KG  RefID  Check the new Company Name (if change) is not already in use by others
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateSupplierStatus(System.String,System.String,System.String,System.String)">
+ <summary>
+ Update Supplier Status. No Outstanding Orders to either Close or Delete Supplier;
+ KG, 19 Dec 2008;
+ </summary>
+ <param name="storeId"></param>
+ <param name="supplierId"></param>
+ <param name="operationType"></param>
+ <param name="loginUser"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetCommon(System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Get Common Items Based On Parameters;
+ 23 Dec 2008 - Jianfa;
+ </summary>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddCommon(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function -  AddCommon;
+ 05 Jan 09 - Jianfa;
+ </summary>
+ <param name="codeGroup"></param>
+ <param name="codeID"></param>
+ <param name="codeDescription"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateCommon(System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - UpdateCommon;
+ 06 Jan 09 - Jianfa;
+ </summary>
+ <param name="commonID"></param>
+ <param name="codeGroup"></param>
+ <param name="codeID"></param>
+ <param name="codeDescription"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddEquipment(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ To insert new equipment;
+ 29 Dec 2008 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="equipmentId"></param>
+ <param name="equipmentDescription"></param>
+ <param name="operationType"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetEquipments(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ To get equipments;
+ 30 Dec 2008 - Jianfa
+ </summary>
+ <param name="storeId"></param>
+ <param name="equipmentId"></param>
+ <param name="equipmentDescription"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateEquipment(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ To update equipment
+ 30 Dec 2008 - Jianfa
+ </summary>
+ <param name="storeId"></param>
+ <param name="equipmentId"></param>
+ <param name="equipmentDescription"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateEquipmentStatus(System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - Update Equipment Status;
+ 31 Dec 2008 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="equipmentId"></param>
+ <param name="operationType"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddStore(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - Add Store
+ 01 Jan 2008 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="storeName"></param>
+ <param name="addressType"></param>
+ <param name="blockHouseNo"></param>
+ <param name="streetName"></param>
+ <param name="floorNo"></param>
+ <param name="unitNo"></param>
+ <param name="buildingName"></param>
+ <param name="postalCode"></param>
+ <param name="contactPerson"></param>
+ <param name="telephoneNo"></param>
+ <param name="faxNo"></param>
+ <param name="otherInfo"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <param name="userRoles"></param>
+ <returns></returns>
+ <remarks>
+ 1) Validate unique store ID
+ 2) Begin inserting Store and Module Ref based on rol groups
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetStores(System.String,System.String,System.String)">
+ <summary>
+ Function - Get Stores;
+ 01 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="storeName"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateStore(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - Update Store;
+ 01 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="storeName"></param>
+ <param name="addressType"></param>
+ <param name="blockHouseNo"></param>
+ <param name="streetName"></param>
+ <param name="floorNo"></param>
+ <param name="unitNo"></param>
+ <param name="buildingName"></param>
+ <param name="postalCode"></param>
+ <param name="contactPerson"></param>
+ <param name="telephoneNo"></param>
+ <param name="faxNo"></param>
+ <param name="otherInfo"></param>
+ <param name="originalStoreName"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateStoreStatus(System.String,System.String,System.String)">
+ <summary>
+ Function - Update Store Status
+ 02 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="operationType"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GenerateItemID(System.String,System.String,System.String@)">
+ <summary>
+ Function -  GeneratedItemID
+ 07 Jan 09 - Jianfa;
+ </summary>
+ <param name="itemID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddItem(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String)">
+ <summary>
+ Function - AddItem;
+ 09 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <param name="equipmentID"></param>
+ <param name="itemDescription"></param>
+ <param name="partNo"></param>
+ <param name="stockType"></param>
+ <param name="subType"></param>
+ <param name="UOM"></param>
+ <param name="location"></param>
+ <param name="location2"></param>
+ <param name="minLevel"></param>
+ <param name="reOrderLevel"></param>
+ <param name="maxLevel"></param>
+ <param name="openingBalance"></param>
+ <param name="openingTotalValue"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetItems(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - GetItems
+ 08 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <param name="location"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetItemsMasterList(System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - GetItemsMasterList
+ 3 Mar 2009 - Guo Feng
+ </summary>
+ <param name="storeID"></param>
+ <param name="stockCodeFrom"></param>
+ <param name="stockCodeTo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetStockTransaction(System.String,System.String,System.String)">
+ <summary>
+ Function - GetStockTransaction;
+ 10 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <param name="transactionType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateItem(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String@)">
+ <summary>
+ Function - UpdateItem
+ 10 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <param name="equipmentID"></param>
+ <param name="itemDescription"></param>
+ <param name="partNo"></param>
+ <param name="stockType"></param>
+ <param name="subType"></param>
+ <param name="UOM"></param>
+ <param name="location"></param>
+ <param name="location2"></param>
+ <param name="minLevel"></param>
+ <param name="reOrderLevel"></param>
+ <param name="maxLevel"></param>
+ <param name="openingBalance"></param>
+ <param name="openingTotalValue"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateItemStatus(System.String,System.String,System.String,System.String,System.String@)">
+ <summary>
+ Function - UpdateItemStatus;
+ 12 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <param name="returnMessage"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetItemSearch(System.String,System.String)">
+ <summary>
+ 01 May 09 - Jianfa
+ Function - GetItemSearch
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.CheckItemID(System.String,System.String)">
+ <summary>
+ 01 May 09 - Jianfa
+ Function - CheckItemID
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.CheckItemStatus(System.String,System.String)">
+ <summary>
+ 28 Feb 2011 - Jianfa
+ Function - Check Item Status 
+ </summary>
+ <param name="storeID"></param>
+ <param name="itemID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetModuleRoles(System.String,System.String)">
+ <summary>
+ Function - GetModuleRoles;
+ 16 Jan 2009 - Jianfa; 
+ </summary>
+ <param name="storeID"></param>
+ <param name="role"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetUserRoles(System.String,System.String)">
+ <summary>
+ Function - GetUserRoles;
+ 18 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="role"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateModuleRoles(System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String)">
+ <summary>
+ Function - UpdateModuleRoles;
+ 16 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="role"></param>
+ <param name="moduleID"></param>
+ <param name="selectRight"></param>
+ <param name="insertRight"></param>
+ <param name="updateRight"></param>
+ <param name="deleteRight"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateUserRole(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - UpdateUserRole;
+ 22 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <param name="role"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <param name="consumerList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.CheckNRIC(System.String)">
+ <summary>
+ Function - CheckNRIC;
+ 23 Jan 09 - Jianfa;
+ </summary>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddUserRole(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - AddUserRole;
+ 24 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <param name="role"></param>
+ <param name="status"></param>
+ <param name="loginUser"></param>
+ <param name="consumerList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.DeleteUserRole(System.String,System.String,System.String)">
+ <summary>
+ Function - DeleteUserRole;
+ 26 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <param name="role"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetUserRoleIDBySoeID(System.String)">
+ <summary>
+ Function - GetUserRoleIDBySoeID;
+ 10 Sep 21 - Nguyen Dung Tri;
+ </summary>
+ <param name="soeID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetModuleAccess(System.String,System.String)">
+ <summary>
+ Function - GetModuleAccess;
+ 09 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetModuleAccessRights(System.String,System.String)">
+ <summary>
+ Function - GetModuleAccessRights
+ 11 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="userID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetConsumers(System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - GetConsumers;
+ 20 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetConsumerRef(System.String,System.String)">
+ <summary>
+ Function - GetConsumerRef;
+ 20 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetConsumerRefByUserID(System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - GetConsumerRefByUserID;
+ 20 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.AddConsumer(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - AddConsumer;
+ 27 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="consumerId"></param>
+ <param name="consumerDescription"></param>
+ <param name="loginUser"></param>
+ <param name="status"></param>
+ <param name="userList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetUsers(System.String)">
+ <summary>
+ Function - GetUsers;
+ 29 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.GetUserRef(System.String,System.String,System.String)">
+ <summary>
+ Function - GetUserRef;
+ 29 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="consumerID"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.MasterListBL.UpdateConsumer(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Function - UpdateConsumer;
+ 29 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeId"></param>
+ <param name="consumerId"></param>
+ <param name="consumerDescription"></param>
+ <param name="loginUser"></param>
+ <param name="status"></param>
+ <param name="userList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:NEA_ICS.Business.StockControlBL">
+ <summary>
+ Business Layer - for Stock Control;
+ 5 Feb 2009 - KG;
+ </summary>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.FieldIsUnique(System.String,NEA_ICS.Business.StockControlBL.ColumnName,System.String,System.String)">
+ <summary>
+ Check field is Unique, PK is ONLY required when the check is on existing record and column is not the PK;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="columnName">column to check</param>
+ <param name="columnValue">value to check against the column</param>
+ <param name="pkColumnValue">optional</param>
+ <returns>True = Unique</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetMoreItemInfo(System.String,System.String,System.DateTime)">
+ <summary>
+ Get More Stock Item Info for a single Stock item based on specific date;
+ 08Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="stockItem"></param>
+ <param name="asOfDte"></param>
+ <returns>More Stock Items Info DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetLastSerialNo(System.String,NEA_ICS.Business.StockControlBL.TableName,System.String)">
+ <summary>
+ Get the Last Serial No base on the provide info;
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="tableName"></param>
+ <param name="docType"></param>
+ <returns>last serial no</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.WithinFinancialCutoff(System.String,System.DateTime)">
+ <summary>
+ Check Financial Cutoff date, if within return TRUE;
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="tranDte"></param>
+ <returns>True = within; False = Not within</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GenerateDocNo(System.String,NEA_ICS.Business.StockControlBL.TableName)">
+ <summary>
+ Generate Unique Doc No based on {4char Storeid}{2digit year}{1char type}{5digit incremental number};
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="tableName"></param>
+ <returns>generated Doc No</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.DeleteAllStockTransaction(System.String,System.String,NEA_ICS.Business.StockControlBL.StockControlType,System.DateTime,System.String)">
+ <summary>
+ Delete all stock transaction for a single document Reference (receive, issue, adjustment) on a specific date;
+ 11Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="docNo"></param>
+ <param name="stockControlType"></param>
+ <param name="originalDte"></param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.AddOrder(System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.Collections.Generic.List{NEA_ICS.Business.OrderItem})">
+ <summary>
+ Add New Order and its Item Details;
+ 1) Check mandatory fields;
+ 2) Check OrderID and GeBizPONo(if any) is unique;
+ 3) Insert records using Transaction Scope;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="gebizPONo"></param>
+ <param name="type"></param>
+ <param name="dte"></param>
+ <param name="supplierID"></param>
+ <param name="loginUser"></param>
+ <param name="orderItemList"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetOrder(System.String,System.String)">
+ <summary>
+ Get Order based on status, default all Open Order only;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns>Orders DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetOrderItem(System.String,System.String,System.Boolean)">
+ <summary>
+ Get all Order Items for a single Order Reference;
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="unfullfillOnly">status NOT equal to Closed</param>
+ <returns>Order Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateOrder(System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.Collections.Generic.List{NEA_ICS.Business.OrderItem})">
+ <summary>
+ Update Order or OrderItem or Both Details, based on the orderitem's mode to either Delete, Insert or Update;
+ 1) Check Order's info
+ 2) Check OrderItem's info
+ 3) Update records using Transaction Scope
+ 05Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="gebizPONo"></param>
+ <param name="type"></param>
+ <param name="dte"></param>
+ <param name="supplierID"></param>
+ <param name="loginUser"></param>
+ <param name="orderItemList"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ 16Mar09  KG          UAT01  include StockItemID for DeleteItem;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.DeleteOrder(System.String,System.String,System.String,System.String)">
+ <summary>
+ Delete Order and its Order Items details;
+ check order is not receive before allowing deletion;
+ 08Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetOrderList(System.String,System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get all Order list by parameters;
+ when orderID is with value, ignore other parameters and get only order items relates to the single Order Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="orderID"></param>
+ <returns>Orders DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.AddDirectIssue(System.String,System.String,System.String,System.String,System.DateTime,System.String,System.Collections.Generic.List{NEA_ICS.Business.DirectIssueItem},System.String,System.String@)">
+ <summary>
+ Function - AddDirectIssue;
+ 13 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="consumerID"></param>
+ <param name="directIssueType"></param>
+ <param name="directIssueSerialNo"></param>
+ <param name="directIssueDte"></param>
+ <param name="directIssueStatus"></param>
+ <param name="directIssueItemList"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE REQ:
+ 1) To use 'FieldIsUnique' instead
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateDirectIssue(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.Collections.Generic.List{NEA_ICS.Business.DirectIssueItem},System.String)">
+ <summary>
+ Function - UpdateDirectIssue;
+ 17 Feb 09 - Jianfa;
+ </summary>
+ <param name="directIssueID"></param>
+ <param name="storeID"></param>
+ <param name="consumerID"></param>
+ <param name="directIssueDocumentNo"></param>
+ <param name="directIssueType"></param>
+ <param name="directIssueSerialNo"></param>
+ <param name="directIssueDte"></param>
+ <param name="directIssueStatus"></param>
+ <param name="directIssueItemList"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.DeleteDirectIssue(System.String,System.Int32)">
+ <summary>
+ Function - DeleteDirectIssue;
+ 14 Feb 09 - Jianfa;
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetDirectIssueID(System.String)">
+ <summary>
+ Function - GetDirectIssueID
+ 14 Feb 09 - Jianfa
+ </summary>
+ <param name="storeID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetDirectIssueInfo(System.String)">
+ <summary>
+ Function - GetDirectIssueInfo;
+ 18 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <returns></returns>
+ <remarks>
+ Change Req:
+ 1) To use 'GetLastSerialNo' instead
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetDirectIssues(System.String,System.Int32,System.String)">
+ <summary>
+ Function - GetDirectIssues;
+ 18 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="directIssueID"></param>
+ <param name="serialNo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetDirectIssueItems(System.Int32)">
+ <summary>
+ Function - GetDirectIssueItems
+ 14 Feb 09 - Jianfa
+ </summary>
+ <param name="directIssueID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetReceiveItem(System.String,System.String,System.DateTime)">
+ <summary>
+ Get the Receive Items for a single Order Reference on a specific date
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <param name="dte"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetReceiveDte(System.String,System.String)">
+ <summary>
+ Get all Receive Date under the same Order
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="orderID"></param>
+ <returns></returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateReceiveItem(System.String,System.String,System.DateTime,System.String,System.Collections.Generic.List{NEA_ICS.Business.ReceiveItem})">
+ <summary>
+ Update the Receive Items base on the Mode either Insert, Update or Delete transaction;
+ 1)check mandatory fields;
+ 2)check receive date is within financial cut off date;
+ 3)Process receive item. check received date is also with financial cut off date and status is still Open;
+ 4)the warranty date (if changed) and order status will also be updated to reflect its order fullfillment;
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type"></param>
+ <param name="dte"></param>
+ <param name="loginUser"></param>
+ <param name="receiveItemList"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetReceiveList(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+ <summary>
+ Get the Receive list base on parameters;
+ when orderID is with value, ignore other parameters and get only receive items relates to the single Order Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="orderID">overwrite other parameter and return value for this order only</param>
+ <returns>Receive DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.AddRequest(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Collections.Generic.List{NEA_ICS.Business.RequestItem})">
+ <summary>
+ Add New Request and its Item Details;
+ 1) Check mandatory fields;
+ 2) Insert records using Transaction Scope;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="consumerID"></param>
+ <param name="requestID">Unique ID generated for the new record</param>
+ <param name="type"></param>
+ <param name="sought"></param>
+ <param name="loginUser"></param>
+ <param name="requestItemList"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetRequest(System.String,System.String)">
+ <summary>
+ Get Request based on status, default all Open Request only;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="status"></param>
+ <returns>Requests DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetRequest(System.String,System.String,System.String,System.String)">
+ <summary>
+ Get Request by search criteria list;
+ 26Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="consumerID"></param>
+ <param name="requestID"></param>
+ <param name="status"></param>
+ <returns>Requests DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetRequestItem(System.String,System.String)">
+ <summary>
+ Get all Request items with or without Issue items for a single Request Reference;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <returns>Request Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateRequest(System.String,System.String,System.String,System.Collections.Generic.List{NEA_ICS.Business.RequestItem})">
+ <summary>
+ Update only to RequestItem Details, based on the requestitem's mode to either Delete, Insert or Update;
+ 1) Check RequestItem's info
+ 2) Update records using Transaction Scope
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="loginUser"></param>
+ <param name="requestItemList"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.DeleteRequest(System.String,System.String,System.String,System.String)">
+ <summary>
+ Delete Request and its Request Items details;
+ check request is not processed before allowing deletion;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateRequestStatus(System.String,System.String,System.String,System.String)">
+ <summary>
+ Update Request Status to either Approved or Rejected;
+ 23Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="status">Approved, Rejected</param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateAdjustStatus(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.DateTime,System.String,System.DateTime)">
+ <summary>
+ Update Adjust Status to either Approved or Rejected;
+ 01Mar12 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestID"></param>
+ <param name="status">Approved, Rejected</param>
+ <param name="loginUser"></param>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyyyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateIssueItem(System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.Collections.Generic.List{NEA_ICS.Business.IssueItem})">
+ <summary>
+ Update the Issue Items base on the Mode either Insert, Update or Delete transaction;
+ 1)check mandatory fields;
+ 2)check status is approved or closed to allow for issue update.
+ 3)check issue date is within financial cut off date;
+ 4)Process issue item. check issued date is also with financial cut off date and status is still Open;
+ 5)the serial number will be updated and request status set to Closed;
+ 14Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="requestType"></param>
+ <param name="requestID"></param>
+ <param name="issueDte"></param>
+ <param name="requestSerialNo"></param>
+ <param name="requestStatus"></param>
+ <param name="loginUser"></param>
+ <param name="issueItemList"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetIssueList(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)">
+ <summary>
+ Get the Issue list base on parameters;
+ when requestID is with value, ignore other parameters and get only issue items relates to the single Request Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="fromStockItemID"></param>
+ <param name="toStockItemID"></param>
+ <param name="requestID">overwrite other parameter and return value for this request only</param>
+ <returns>Issue DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetDirectIssueList(System.String,System.DateTime,System.DateTime,System.String)">
+ <summary>
+ Get the direct Issue list base on parameters;
+ 25Feb09 - Guo Feng;
+ </summary>
+ <param name="storeID"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="docNo"></param>
+ <returns>Direct Issue DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetAdjust(System.String,System.String,System.String)">
+ <summary>
+ Get Adjust based on type(AI or AO) n status, default all Open Adjust only;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type">AI = Inwards, AO = Outwards</param>
+ <param name="status"></param>
+ <returns>Adjusts DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetAdjustItem(System.String,System.String,System.String)">
+ <summary>
+ Get all Adjust items for a single Adjust Reference;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID"></param>
+ <param name="type">AI = Inwards, AO = Outwards</param>
+ <returns>Adjust Items DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetAdjustBySearch(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Get Adjust by search criteria list;
+ 09 Mar 12 - Christina;
+ </summary>
+ <param name="storeID"></param>
+ <param name="consumerID"></param>
+ <param name="adjustID"></param>
+ <param name="status"></param>
+ <returns>Adjust DataSet Collection</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.AddAdjust(System.String,System.String,System.String,System.DateTime@,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Collections.Generic.List{NEA_ICS.Business.AdjustItem})">
+ <summary>
+ Add New Adjust and its Item Details also to stock transaction;
+ 1) Check mandatory fields;
+ 2) Insert records using Transaction Scope;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID">Unique ID generated for the new record</param>
+ <param name="type"></param>
+ <param name="dte"></param>
+ <param name="serialNo"></param>
+ <param name="involveID"></param>
+ <param name="loginUser"></param>
+ <param name="adjustItemList"></param>
+ <param name="docReturn">only applies to adjustment inwards for returning previous Issued</param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.UpdateAdjust(System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.DateTime,System.String,System.DateTime,System.Collections.Generic.List{NEA_ICS.Business.AdjustItem})">
+ <summary>
+ Update to Adjust n AdjustItem Details, based on the adjustitem's mode to either Delete, Insert or Update;
+ 1) Check AdjustItem's info
+ 2) Update records using Transaction Scope
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustID"></param>
+ <param name="adjustType"></param>
+ <param name="adjustDte"></param>
+ <param name="serialNo"></param>
+ <param name="involveID"></param>
+ <param name="loginUser"></param>
+ <param name="adjustItemList"></param>
+ <returns>Error Message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ 23Mar09  KG          UAT02  fix DeleteAdjustItem;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.DeleteAdjust(System.String,System.String,System.String,System.DateTime,System.String)">
+ <summary>
+ Delete Adjust and all its Adjust Items n Transaction details;
+ check adjust is still within financial cutoff before allowing deletion;
+ 20Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="adjustType"></param>
+ <param name="adjustID"></param>
+ <param name="loginUser"></param>
+ <returns>error message (if any)</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="M:NEA_ICS.Business.StockControlBL.GetAdjustList(System.String,System.String,System.DateTime,System.DateTime,System.String)">
+ <summary>
+ Get the Adjust list base on parameters;
+ when adjustID is with value, ignore other parameters and get only adjust items relates to the single Adjust Reference
+ 19Feb09 - KG;
+ </summary>
+ <param name="storeID"></param>
+ <param name="type"></param>
+ <param name="fromDte"></param>
+ <param name="toDte"></param>
+ <param name="adjustID">overwrite other parameter and return value for this adjust only</param>
+ <returns>Adjust DataSet</returns>
+ <remarks>
+ CHANGE LOG:
+ ddMMMyy  AuthorName  RefID  Description;
+ </remarks>
+</member>
+<member name="T:NEA_ICS.Business.WorksheetBL">
+ <summary>
+ Business Layer for WorkSheet
+ 30 Jan 09 - Jianfa;
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.GetWorkSheetItems(System.String,System.String,System.String,System.String,System.String,System.Decimal,System.String)">
+ <summary>
+ Function - GetWorkSheetItems;
+ 30 Jan 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="stockCodeFrom"></param>
+ <param name="stockCodeTo"></param>
+ <param name="stockType"></param>
+ <param name="status"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.GetMarkedWorksheetItem(System.String,System.Int32)">
+ <summary>
+ Function - GetMarkedWorksheetItem
+ 12 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="worksheetID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.AddWorkSheetItem(System.String,System.Data.DataTable,System.String,System.Int32@)">
+ <summary>
+ Function - AddWorkSheetItem;
+ 3 Feb 2009 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="workSheetItemList"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.GetWorkSheetID(System.String)">
+ <summary>
+ Function - GetWorkSheetID;
+ 03 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.GetWorksheetGeneratedDate(System.String,System.Int32)">
+ <summary>
+ Function - GetWorksheetGeneratedDate;
+ 07 Feb 2009 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="workSheetID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.UpdateWorksheet(System.String,System.Int32,System.String,System.String,System.String,System.String)">
+ <summary>
+ Function - UpdateWorksheet;
+ 06 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="workSheetID"></param>
+ <param name="verifierName"></param>
+ <param name="loginUser"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NEA_ICS.Business.WorksheetBL.DeleteWorksheet(System.String,System.Int32)">
+ <summary>
+ Function - DeleteWorksheet;
+ 06 Feb 09 - Jianfa;
+ </summary>
+ <param name="storeID"></param>
+ <param name="workSheetID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

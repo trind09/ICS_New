@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Projects\ICS PUBLISH</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="3rd Party DLLs/AjaxControlToolkit.dll">
+      <publishTime>12/09/2008 20:34:12</publishTime>
+    </File>
+    <File Include="Adjustment/AdjustItem.ascx">
+      <publishTime>05/24/2011 15:52:12</publishTime>
+    </File>
+    <File Include="Adjustment/AdjustOutwardItem.ascx">
+      <publishTime>03/06/2012 12:08:46</publishTime>
+    </File>
+    <File Include="Adjustment/AdjustReturnItem.ascx">
+      <publishTime>04/17/2012 00:18:38</publishTime>
+    </File>
+    <File Include="Adjustment/frmAdjustmentInwards.aspx">
+      <publishTime>12/28/2016 11:02:48</publishTime>
+    </File>
+    <File Include="Adjustment/frmAdjustmentOutwards.aspx">
+      <publishTime>12/28/2016 11:02:41</publishTime>
+    </File>
+    <File Include="Adjustment/frmODL.aspx">
+      <publishTime>01/05/2017 16:36:50</publishTime>
+    </File>
+    <File Include="Adjustment/frmReturnAdjustment.aspx">
+      <publishTime>12/28/2016 13:48:38</publishTime>
+    </File>
+    <File Include="Adjustment/rptAdjustList.rdlc">
+      <publishTime>11/20/2016 08:24:53</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmACommon.aspx">
+      <publishTime>11/20/2016 08:51:47</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAConsumer.aspx">
+      <publishTime>11/17/2016 18:21:30</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAEquipment.aspx">
+      <publishTime>11/18/2016 19:06:00</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAOrder.aspx">
+      <publishTime>11/18/2016 20:39:22</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAResidue.aspx">
+      <publishTime>11/17/2016 12:38:30</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmARole.aspx">
+      <publishTime>11/19/2016 09:30:41</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAStockItem.aspx">
+      <publishTime>11/17/2016 12:31:30</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAStockTransaction.aspx">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmAStore.aspx">
+      <publishTime>11/18/2016 19:13:31</publishTime>
+    </File>
+    <File Include="AuditTrailReport/frmASupplier.aspx">
+      <publishTime>11/18/2016 19:15:43</publishTime>
+    </File>
+    <File Include="AuditTrailReport/rptAConsumerCover.rdlc">
+      <publishTime>11/19/2016 08:43:30</publishTime>
+    </File>
+    <File Include="AuditTrailReport/rptAOrder.rdlc">
+      <publishTime>11/20/2016 08:13:06</publishTime>
+    </File>
+    <File Include="AuditTrailReport/rptAOrderCover.rdlc">
+      <publishTime>11/17/2016 12:35:10</publishTime>
+    </File>
+    <File Include="AuditTrailReport/rptAStockTransaction.rdlc">
+      <publishTime>11/17/2016 12:35:10</publishTime>
+    </File>
+    <File Include="AuditTrailReport/rptAStockTransactionCover.rdlc">
+      <publishTime>11/17/2016 12:35:10</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>12/09/2008 20:34:12</publishTime>
+    </File>
+    <File Include="bin/DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll">
+      <publishTime>02/10/2009 23:59:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll">
+      <publishTime>02/11/2009 00:00:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll">
+      <publishTime>02/11/2009 00:00:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.dll">
+      <publishTime>02/11/2009 00:00:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>02/11/2009 00:00:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll">
+      <publishTime>02/11/2009 00:00:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Configuration.Design.UI.dll">
+      <publishTime>02/11/2009 00:00:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll">
+      <publishTime>02/11/2009 00:00:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>02/11/2009 00:00:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll">
+      <publishTime>02/11/2009 00:00:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll">
+      <publishTime>02/11/2009 00:00:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll">
+      <publishTime>02/11/2009 00:00:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll">
+      <publishTime>02/11/2009 00:00:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>02/11/2009 00:00:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.Design.dll">
+      <publishTime>02/11/2009 00:00:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll">
+      <publishTime>02/11/2009 00:00:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ObjectBuilder.dll">
+      <publishTime>02/11/2009 00:00:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>02/20/2011 04:40:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>02/20/2011 04:40:08</publishTime>
+    </File>
+    <File Include="bin/MsmqDistributor.exe">
+      <publishTime>02/11/2009 00:00:20</publishTime>
+    </File>
+    <File Include="bin/NEA_ICS.UserInterface.dll">
+      <publishTime>04/23/2018 16:12:53</publishTime>
+    </File>
+    <File Include="bin/NEA_ICS.UserInterface.xml">
+      <publishTime>04/23/2018 16:12:53</publishTime>
+    </File>
+    <File Include="frmCommonLogin.aspx">
+      <publishTime>06/19/2009 13:58:26</publishTime>
+    </File>
+    <File Include="frmFiller.aspx">
+      <publishTime>03/23/2009 14:52:08</publishTime>
+    </File>
+    <File Include="frmFrameTop.aspx">
+      <publishTime>09/13/2012 14:52:18</publishTime>
+    </File>
+    <File Include="frmICS.aspx">
+      <publishTime>05/24/2011 18:31:38</publishTime>
+    </File>
+    <File Include="frmLogin.aspx">
+      <publishTime>05/24/2011 14:50:50</publishTime>
+    </File>
+    <File Include="frmLogout.aspx">
+      <publishTime>03/08/2009 15:46:16</publishTime>
+    </File>
+    <File Include="frmMain.aspx">
+      <publishTime>03/10/2009 03:46:20</publishTime>
+    </File>
+    <File Include="frmMidFrame.aspx">
+      <publishTime>12/11/2008 20:38:18</publishTime>
+    </File>
+    <File Include="frmSelectStore.aspx">
+      <publishTime>08/29/2016 12:18:16</publishTime>
+    </File>
+    <File Include="frmTreeView.aspx">
+      <publishTime>12/11/2008 20:38:18</publishTime>
+    </File>
+    <File Include="frmUnauthorisedPage.aspx">
+      <publishTime>03/29/2009 22:51:30</publishTime>
+    </File>
+    <File Include="frmUnauthorisedPageFromLogin.aspx">
+      <publishTime>05/27/2009 16:09:56</publishTime>
+    </File>
+    <File Include="GenericError.htm">
+      <publishTime>05/14/2012 14:19:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/16/2009 11:00:26</publishTime>
+    </File>
+    <File Include="ICS_IADataSet.xsc">
+      <publishTime>11/14/2016 16:38:10</publishTime>
+    </File>
+    <File Include="ICS_IADataSet.xss">
+      <publishTime>11/14/2016 16:38:10</publishTime>
+    </File>
+    <File Include="ICS_IADataSet1.xsc">
+      <publishTime>11/14/2016 16:45:41</publishTime>
+    </File>
+    <File Include="ICS_IADataSet1.xss">
+      <publishTime>11/14/2016 16:45:41</publishTime>
+    </File>
+    <File Include="ICS_IADataSet2.xsc">
+      <publishTime>11/14/2016 16:51:50</publishTime>
+    </File>
+    <File Include="ICS_IADataSet2.xss">
+      <publishTime>11/14/2016 16:51:50</publishTime>
+    </File>
+    <File Include="ICS_IADataSet3.xsc">
+      <publishTime>11/15/2016 10:41:53</publishTime>
+    </File>
+    <File Include="ICS_IADataSet3.xss">
+      <publishTime>11/15/2016 10:41:53</publishTime>
+    </File>
+    <File Include="Images/adjustment_inwards_details.gif">
+      <publishTime>12/15/2008 21:36:34</publishTime>
+    </File>
+    <File Include="Images/adjustment_outwards_details.gif">
+      <publishTime>12/15/2008 21:36:34</publishTime>
+    </File>
+    <File Include="Images/background.jpg">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/cancel.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/consumer_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/delete.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/direct_issue_details.gif">
+      <publishTime>12/10/2008 20:59:26</publishTime>
+    </File>
+    <File Include="Images/edit.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/equipment_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/Filler.jpg">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/fld.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/fld_exp.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/ICS.jpg">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/ICSBanner.jpg">
+      <publishTime>09/13/2012 20:49:38</publishTime>
+    </File>
+    <File Include="Images/issue_details.gif">
+      <publishTime>12/10/2008 20:59:26</publishTime>
+    </File>
+    <File Include="Images/ItemReceived.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/item_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/login.gif">
+      <publishTime>12/19/2002 16:25:38</publishTime>
+    </File>
+    <File Include="Images/login.jpg">
+      <publishTime>05/05/2006 15:35:06</publishTime>
+    </File>
+    <File Include="Images/login_14.gif">
+      <publishTime>12/19/2002 16:20:54</publishTime>
+    </File>
+    <File Include="Images/mainmenuv2_nealogo.gif">
+      <publishTime>09/13/2012 20:54:00</publishTime>
+    </File>
+    <File Include="Images/ModuleHeader.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/module_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/NEA_Color_Logo.gif">
+      <publishTime>09/13/2012 20:57:00</publishTime>
+    </File>
+    <File Include="Images/NEA_Logo.jpg">
+      <publishTime>09/13/2012 20:58:36</publishTime>
+    </File>
+    <File Include="Images/OrderItem.jpg">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/order_details.gif">
+      <publishTime>12/10/2008 20:59:26</publishTime>
+    </File>
+    <File Include="Images/orgbkg.gif">
+      <publishTime>03/31/2009 12:38:48</publishTime>
+    </File>
+    <File Include="Images/po_item.gif">
+      <publishTime>12/10/2008 20:59:26</publishTime>
+    </File>
+    <File Include="Images/progress.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/receive_details.gif">
+      <publishTime>12/10/2008 20:59:26</publishTime>
+    </File>
+    <File Include="Images/Reorder.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/request_details.gif">
+      <publishTime>03/02/2009 23:00:50</publishTime>
+    </File>
+    <File Include="Images/role_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/save.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/search_details.gif">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/search_details.jpg">
+      <publishTime>12/09/2008 20:34:10</publishTime>
+    </File>
+    <File Include="Images/search_results.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/select.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/select_conditions.gif">
+      <publishTime>03/30/2009 11:29:44</publishTime>
+    </File>
+    <File Include="Images/select_data_items.gif">
+      <publishTime>03/30/2009 11:28:40</publishTime>
+    </File>
+    <File Include="Images/StockObsoleteDamageDetails.gif">
+      <publishTime>04/16/2012 12:10:32</publishTime>
+    </File>
+    <File Include="Images/StockReturnDetails.gif">
+      <publishTime>04/16/2012 12:06:04</publishTime>
+    </File>
+    <File Include="Images/stop.gif">
+      <publishTime>03/08/2009 15:59:50</publishTime>
+    </File>
+    <File Include="Images/store_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/supplier_details.gif">
+      <publishTime>12/09/2008 20:35:34</publishTime>
+    </File>
+    <File Include="Images/usermanual.jpg">
+      <publishTime>03/23/2009 17:56:00</publishTime>
+    </File>
+    <File Include="Images/verification_worksheet.gif">
+      <publishTime>12/15/2008 09:48:36</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>02/22/2017 16:48:36</publishTime>
+    </File>
+    <File Include="ManagementReport/frmAdhocReport.aspx">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/frmIssueDocumentDetails.aspx">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/frmPeriodicIssues.aspx">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/frmQtyIssueSummary.aspx">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/frmRackItemBalance.aspx">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/frmReorderStockItem.aspx">
+      <publishTime>11/17/2016 12:38:28</publishTime>
+    </File>
+    <File Include="ManagementReport/frmStockAdjustmentEntries.aspx">
+      <publishTime>11/17/2016 12:38:28</publishTime>
+    </File>
+    <File Include="ManagementReport/frmStockReturn.aspx">
+      <publishTime>11/17/2016 12:38:28</publishTime>
+    </File>
+    <File Include="ManagementReport/frmStockReturnCheckList.aspx">
+      <publishTime>11/17/2016 12:38:28</publishTime>
+    </File>
+    <File Include="ManagementReport/frmStockReviewList.aspx">
+      <publishTime>11/17/2016 12:38:28</publishTime>
+    </File>
+    <File Include="ManagementReport/frmTransactionListing.aspx">
+      <publishTime>11/17/2016 12:38:28</publishTime>
+    </File>
+    <File Include="ManagementReport/rptAdHocReport.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR001GetRackItemBalance.rdlc">
+      <publishTime>12/08/2017 17:43:19</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR002GetTransactionList.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR003IssueDocumentDetails.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR004StockReviewList.rdlc">
+      <publishTime>12/08/2017 17:43:19</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR005StockReturn.rdlc">
+      <publishTime>12/08/2017 16:53:15</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR006StockReturnCheckListAdjust.rdlc">
+      <publishTime>11/16/2017 17:27:00</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR006StockReturnCheckListIssue.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR006StockReturnCheckListIssueConsumer.rdlc">
+      <publishTime>04/11/2018 16:51:52</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR006StockReturnCheckListReceive.rdlc">
+      <publishTime>12/08/2017 17:48:19</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR006StockReturnCheckListStockItem.rdlc">
+      <publishTime>11/07/2017 17:49:17</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR007PeriodIssues.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR008QuantityIssueSummary.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR009ReorderStockItemList.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="ManagementReport/rptMR010StockAdjustmentEntries.rdlc">
+      <publishTime>11/17/2016 12:38:29</publishTime>
+    </File>
+    <File Include="MasterList/frmCommon.aspx">
+      <publishTime>05/24/2011 17:58:08</publishTime>
+    </File>
+    <File Include="MasterList/frmConsumer.aspx">
+      <publishTime>11/18/2016 07:59:21</publishTime>
+    </File>
+    <File Include="MasterList/frmEquipment.aspx">
+      <publishTime>11/18/2016 07:59:21</publishTime>
+    </File>
+    <File Include="MasterList/frmItem.aspx">
+      <publishTime>11/18/2016 07:59:21</publishTime>
+    </File>
+    <File Include="MasterList/frmRole.aspx">
+      <publishTime>11/18/2016 07:59:21</publishTime>
+    </File>
+    <File Include="MasterList/frmStore.aspx">
+      <publishTime>11/18/2016 07:59:20</publishTime>
+    </File>
+    <File Include="MasterList/frmSupplier.aspx">
+      <publishTime>11/18/2016 07:59:19</publishTime>
+    </File>
+    <File Include="MasterList/rptConsumer.rdlc">
+      <publishTime>11/18/2016 08:05:43</publishTime>
+    </File>
+    <File Include="MasterList/rptEquipment.rdlc">
+      <publishTime>11/18/2016 08:05:43</publishTime>
+    </File>
+    <File Include="MasterList/rptItem.rdlc">
+      <publishTime>08/14/2017 15:01:25</publishTime>
+    </File>
+    <File Include="MasterList/rptStore.rdlc">
+      <publishTime>11/18/2016 08:05:43</publishTime>
+    </File>
+    <File Include="MasterList/rptSupplier.rdlc">
+      <publishTime>11/18/2016 08:05:43</publishTime>
+    </File>
+    <File Include="MasterList/rptUser.rdlc">
+      <publishTime>11/18/2016 08:05:43</publishTime>
+    </File>
+    <File Include="Script/NEA_ICS.js">
+      <publishTime>03/29/2009 22:53:08</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.ACommon.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AConsumer.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AdHocReportDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustList.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AEquipment.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AOrderDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AResidueDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AStockItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AStockTransactionDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AStore.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.ASupplier.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.AUserRole.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.CommonDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.ConsumerDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.DirectIssueDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.EquipmentDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.IssueItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.IssueList.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.ItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MoreItemInfoDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR001GetRackItemBalanceDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR002GetTransactionListDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR003IssueDocumentDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR004StockReviewListDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR005StockReturnDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListAdjustDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListIssueDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListReceiveDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListStockItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR007PeriodIssuesDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR008QuantityIssueSummaryDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR009ReorderStockItemListDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.MR010StockAdjustmentEntriesDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderList.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.RackItemBalanceDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.ReceiveItemDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.ReceiveList.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.RequestDetails.datasource">
+      <publishTime>01/14/2017 10:04:05</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.RoleDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.StoreDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.SupplierDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.TransactionListDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="Service References/NEA_ICS.WcfService/NEA_ICS.UserInterface.NEA_ICS.WcfService.WorksheetDetails.datasource">
+      <publishTime>01/14/2017 10:04:06</publishTime>
+    </File>
+    <File Include="StockCard/frmStockCard.aspx">
+      <publishTime>11/20/2016 08:25:33</publishTime>
+    </File>
+    <File Include="StockCard/rptStockCard.rdlc">
+      <publishTime>11/20/2016 08:25:34</publishTime>
+    </File>
+    <File Include="StockControl/DirectIssueItem.ascx">
+      <publishTime>03/10/2009 12:02:28</publishTime>
+    </File>
+    <File Include="StockControl/frmDirectIssueItem.aspx">
+      <publishTime>11/18/2016 08:48:01</publishTime>
+    </File>
+    <File Include="StockControl/frmIssueItem.aspx">
+      <publishTime>11/18/2016 08:48:01</publishTime>
+    </File>
+    <File Include="StockControl/frmOrderItem.aspx">
+      <publishTime>11/18/2016 08:48:01</publishTime>
+    </File>
+    <File Include="StockControl/frmReceiveItem.aspx">
+      <publishTime>11/18/2016 08:48:00</publishTime>
+    </File>
+    <File Include="StockControl/IssueItem.ascx">
+      <publishTime>05/24/2011 18:02:24</publishTime>
+    </File>
+    <File Include="StockControl/OrderItem.ascx">
+      <publishTime>05/20/2009 15:29:32</publishTime>
+    </File>
+    <File Include="StockControl/ReceiveItem.ascx">
+      <publishTime>05/20/2009 15:30:08</publishTime>
+    </File>
+    <File Include="StockControl/rptDirectIssueList.rdlc">
+      <publishTime>11/18/2016 08:48:50</publishTime>
+    </File>
+    <File Include="StockControl/rptIssueList.rdlc">
+      <publishTime>11/18/2016 08:48:50</publishTime>
+    </File>
+    <File Include="StockControl/rptOrderList.rdlc">
+      <publishTime>11/18/2016 08:48:50</publishTime>
+    </File>
+    <File Include="StockControl/rptRecieveList.rdlc">
+      <publishTime>11/18/2016 08:48:51</publishTime>
+    </File>
+    <File Include="Style/ICS.css">
+      <publishTime>09/22/2009 17:00:58</publishTime>
+    </File>
+    <File Include="UserAuditReport/frmInactiveUsers.aspx">
+      <publishTime>12/06/2016 23:55:39</publishTime>
+    </File>
+    <File Include="UserAuditReport/frmInvalidAccountLogin.aspx">
+      <publishTime>11/28/2016 12:14:30</publishTime>
+    </File>
+    <File Include="UserAuditReport/frmNewUsers.aspx">
+      <publishTime>11/28/2016 12:14:30</publishTime>
+    </File>
+    <File Include="UserAuditReport/frmUserActivities.aspx">
+      <publishTime>11/28/2016 12:14:30</publishTime>
+    </File>
+    <File Include="UserAuditReport/frmUserUnsuccessfulLogins.aspx">
+      <publishTime>11/28/2016 12:14:30</publishTime>
+    </File>
+    <File Include="verify.aspx">
+      <publishTime>03/03/2015 18:03:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/20/2017 15:29:01</publishTime>
+    </File>
+    <File Include="Worksheet/frmPrintVerificationWorksheet.aspx">
+      <publishTime>11/28/2016 12:17:13</publishTime>
+    </File>
+    <File Include="Worksheet/frmUpdateVerificationResults.aspx">
+      <publishTime>11/28/2016 12:17:19</publishTime>
+    </File>
+    <File Include="Worksheet/frmVerificationWorksheet.aspx">
+      <publishTime>11/28/2016 12:17:35</publishTime>
+    </File>
+    <File Include="Worksheet/rptVerificationWorksheet.rdlc">
+      <publishTime>11/28/2016 12:17:13</publishTime>
+    </File>
+    <File Include="Worksheet/rptVerificationWorksheetCover.rdlc">
+      <publishTime>11/28/2016 12:16:39</publishTime>
+    </File>
+    <File Include="Worksheet/rptVerificationWorksheetNoQty.rdlc">
+      <publishTime>11/28/2016 12:17:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

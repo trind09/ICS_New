@@ -1,0 +1,909 @@
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\dir
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\filename.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.sln
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\AccessRightsBL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\AuditTrailReportBL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\ManagementReportBL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\MasterListBL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\NEA_ICS.Business.vbproj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\NEA_ICS.Business.vbproj.user
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\StockControlBL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\WorksheetBL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\AjaxControlToolkit.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\NEA_ICS.Business.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\NEA_ICS.Business.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\NEA_ICS.Business.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Debug\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\AjaxControlToolkit.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\NEA_ICS.Business.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\NEA_ICS.Business.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\NEA_ICS.Business.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\bin\Release\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity\AdjustItem.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity\DirectIssueItem.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity\IssueItem.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity\OrderItem.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity\ReceiveItem.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\Entity\RequestItem.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\Application.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\Application.myapp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\AssemblyInfo.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\Resources.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\Resources.resx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\Settings.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\My Project\Settings.settings
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\NEA_ICS.Business.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\NEA_ICS.Business.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.Business\obj\Release\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\AccessRightsDAL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\AuditTrailReportDAL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\ManagementReportDAL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\MasterListDAL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\NEA_ICS.DataAccess.vbproj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\NEA_ICS.DataAccess.vbproj.user
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\Service References
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\StockControlDAL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\WorksheetDAL.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Debug\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\bin\Release\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\Application.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\Application.myapp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\AssemblyInfo.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\Resources.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\Resources.resx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\Settings.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\My Project\Settings.settings
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\NEA_ICS.DataAccess.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\NEA_ICS.DataAccess.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\NEA_ICS.DataAccess.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.DataAccess\obj\Release\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\3rd Party DLLs
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\App_Data
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\clsCommonFunction.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\clsReportUtility.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\clsSorter.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmCommonLogin.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmCommonLogin.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmCommonLogin.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmFiller.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmFiller.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmFiller.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmFrameTop.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmFrameTop.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmFrameTop.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmICS.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmICS.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmICS.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmLogin.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmLogin.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmLogin.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmLogout.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmLogout.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmLogout.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmMain.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmMain.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmMain.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmMidFrame.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmMidFrame.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmMidFrame.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmSelectStore.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmSelectStore.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmSelectStore.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmTreeView.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmTreeView.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmTreeView.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmUnauthorisedPage.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmUnauthorisedPage.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmUnauthorisedPage.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmUnauthorisedPageFromLogin.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmUnauthorisedPageFromLogin.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\frmUnauthorisedPageFromLogin.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\GenericError.htm
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Global.asax
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Global.asax.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet.xsc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet.xss
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet1.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet1.xsc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet1.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet1.xss
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet2.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet2.xsc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet2.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet2.xss
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet3.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet3.xsc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet3.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ICS_IADataSet3.xss
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\log
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\login.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\NEA_ICS.UserInterface.vbproj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\NEA_ICS.UserInterface.vbproj.user
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Script
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockCard
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Style
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserManual
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ve-1AA0.tmp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\verify.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Web.config
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Web.config.ReportV9
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\3rd Party DLLs\AjaxControlToolkit.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\3rd Party DLLs\Microsoft.ReportViewer.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\3rd Party DLLs\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\3rd Party DLLs\Microsoft.ReportViewer.WebForms.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustOutwardItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustOutwardItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustOutwardItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustReturnItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustReturnItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\AdjustReturnItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmAdjustmentInwards.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmAdjustmentInwards.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmAdjustmentInwards.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmAdjustmentOutwards.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmAdjustmentOutwards.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmAdjustmentOutwards.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmODL.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmODL.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmODL.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmReturnAdjustment.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmReturnAdjustment.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\frmReturnAdjustment.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\rptAdjustList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Adjustment\rptReturnList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmACommon.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmACommon.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmACommon.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAConsumer.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAConsumer.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAConsumer.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAEquipment.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAEquipment.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAEquipment.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAOrder.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAOrder.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAOrder.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAResidue.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAResidue.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAResidue.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmARole.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmARole.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmARole.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStockItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStockItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStockItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStockTransaction.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStockTransaction.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStockTransaction.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStore.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStore.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmAStore.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmASupplier.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmASupplier.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\frmASupplier.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptACommon.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptACommonCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAConsumer.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAConsumerCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAEquipment.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAEquipmentCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAOrder.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAOrderCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStockItem.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStockItemCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStockResidue.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStockResidueCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStockTransaction.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStockTransactionCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStore.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAStoreCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptASupplier.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptASupplierCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAUserRole.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptAUserRoleCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\AuditTrailReport\rptBlankReport.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\AjaxControlToolkit.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.Database.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.UI.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.ReportViewer.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.ReportViewer.WebForms.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\Microsoft.ReportViewer.WebForms.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\MsmqDistributor.exe
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\MsmqDistributor.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\NEA_ICS.UserInterface.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\NEA_ICS.UserInterface.dll.config
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\NEA_ICS.UserInterface.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\bin\NEA_ICS.UserInterface.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\adjustment_inwards_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\adjustment_outwards_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\background.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\cancel.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\consumer_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\delete.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\direct_issue_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\edit.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\equipment_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\Filler.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\fld.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\fld_exp.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\ICS.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\ICSBanner-backup.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\ICSBanner.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\issue_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\ItemReceived.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\item_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\login.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\login.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\login_14.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\mainmenuv2_nealogo-backup.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\mainmenuv2_nealogo.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\ModuleHeader.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\module_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\NEA_Color_Logo-backup.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\NEA_Color_Logo.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\NEA_Logo-backup.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\NEA_Logo.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\OrderItem.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\order_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\orgbkg.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\po_item.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\progress.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\receive_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\Reorder.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\request_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\role_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\save.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\search_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\search_details.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\search_results.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\select.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\select_conditions.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\select_data_items.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\StockObsoleteDamageDetails.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\StockReturnDetails.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\stop.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\store_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\supplier_details.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\Thumbs.db
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\usermanual.jpg
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\UserManual.psd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\verification_worksheet.gif
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Images\Wording.psd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\log\trace.log
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmAdhocReport.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmAdhocReport.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmAdhocReport.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmIssueDocumentDetails.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmIssueDocumentDetails.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmIssueDocumentDetails.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmPeriodicIssues.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmPeriodicIssues.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmPeriodicIssues.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmQtyIssueSummary.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmQtyIssueSummary.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmQtyIssueSummary.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmRackItemBalance.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmRackItemBalance.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmRackItemBalance.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmReorderStockItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmReorderStockItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmReorderStockItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockAdjustmentEntries.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockAdjustmentEntries.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockAdjustmentEntries.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReturn.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReturn.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReturn.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReturnCheckList.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReturnCheckList.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReturnCheckList.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReviewList.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReviewList.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmStockReviewList.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmTransactionListing.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmTransactionListing.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\frmTransactionListing.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptAdHocReport.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR001GetRackItemBalance.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR002GetTransactionList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR003IssueDocumentDetails.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR004StockReviewList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR005StockReturn.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR006StockReturnCheckListAdjust.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR006StockReturnCheckListIssue.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR006StockReturnCheckListIssueConsumer.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR006StockReturnCheckListReceive.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR006StockReturnCheckListStockItem.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR007PeriodIssues.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR008QuantityIssueSummary.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR009ReorderStockItemList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\ManagementReport\rptMR010StockAdjustmentEntries.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmCommon.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmCommon.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmCommon.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmConsumer.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmConsumer.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmConsumer.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmEquipment.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmEquipment.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmEquipment.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmRole.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmRole.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmRole.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmStore.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmStore.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmStore.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmSupplier.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmSupplier.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\frmSupplier.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\rptConsumer.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\rptEquipment.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\rptItem.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\rptStore.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\rptSupplier.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\MasterList\rptUser.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\Application.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\Application.myapp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\AssemblyInfo.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\DataSources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\MyExtensions
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\PublishProfiles
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\Resources.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\Resources.resx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\Settings.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\Settings.settings
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\MyExtensions\MyWebExtension.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\PublishProfiles\Web App.pubxml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\My Project\PublishProfiles\Web App.pubxml.user
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\DesignTimeResolveAssemblyReferences.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\NEA_ICS.UserInterface.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\RdlCompile.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\RdlCompile.compiled
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\ASupplier.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\AuditTrailReport.DataSet1.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\ICS_IADataSet.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\ICS_IADataSet1.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\ICS_IADataSet2.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\ICS_IADataSet3.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\Service References.NEA_ICS.WcfService.Reference.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\Service References.NEA_ICS.WcfService1.Reference.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Debug\TempPE\Service References.ServiceReference1.Reference.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\NEA_ICS.UserInterface.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\Package
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\RdlCompile.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\RdlCompile.compiled
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\obj\Release\TempPE\Service References.NEA_ICS.WcfService.Reference.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Script\NEA_ICS.js
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\configuration.svcinfo
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\configuration91.svcinfo
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ACommon.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AConsumer.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdHocReportDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AdjustList.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AEquipment.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AOrderDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AResidueDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AStockItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AStockTransactionDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AStore.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ASupplier.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.AUserRole.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.CommonDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ConsumerDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.DirectIssueDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.EquipmentDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.IssueItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.IssueList.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MoreItemInfoDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR001GetRackItemBalanceDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR002GetTransactionListDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR003IssueDocumentDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR004StockReviewListDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR005StockReturnDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListAdjustDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListIssueDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListReceiveDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR006StockReturnCheckListStockItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR007PeriodIssuesDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR008QuantityIssueSummaryDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR009ReorderStockItemListDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.MR010StockAdjustmentEntriesDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.OrderList.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.RackItemBalanceDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ReceiveItemDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.ReceiveList.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.RequestDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.RoleDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.StoreDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.SupplierDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.TransactionListDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\NEA_ICS.UserInterface.NEA_ICS.WcfService.WorksheetDetails.datasource
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Reference.svcmap
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Reference.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Service1.disco
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Service1.wsdl
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Service4.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Service41.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Service42.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Service43.xsd
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\ve-3E48.tmp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockCard\frmStockCard.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockCard\frmStockCard.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockCard\frmStockCard.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockCard\rptStockCard.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\DirectIssueItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\DirectIssueItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\DirectIssueItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmDirectIssueItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmDirectIssueItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmDirectIssueItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmIssueItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmIssueItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmIssueItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmOrderItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmOrderItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmOrderItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmReceiveItem.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmReceiveItem.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\frmReceiveItem.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\IssueItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\IssueItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\IssueItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\OrderItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\OrderItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\OrderItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\ReceiveItem.ascx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\ReceiveItem.ascx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\ReceiveItem.ascx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\rptDirectIssueList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\rptIssueList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\rptOrderList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\StockControl\rptRecieveList.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Style\ICS.css
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmInactiveUsers.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmInactiveUsers.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmInactiveUsers.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmInvalidAccountLogin.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmInvalidAccountLogin.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmInvalidAccountLogin.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmNewUsers.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmNewUsers.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmNewUsers.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmUserActivities.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmUserActivities.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmUserActivities.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmUserUnsuccessfulLogins.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmUserUnsuccessfulLogins.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\frmUserUnsuccessfulLogins.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\rptAR001GetUserActivities.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\rptAR002GetUserUnsuccessfulLogin.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\rptAR003GetNonIcsUserUnsuccessfulLogin.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\rptAR004GetNewUserCreated.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\rptAR005GetInactiveUsers.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserAuditReport\ve-728F.tmp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\UserManual\UserManual.pdf
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmPrintVerificationWorksheet.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmPrintVerificationWorksheet.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmPrintVerificationWorksheet.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmUpdateVerificationResults.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmUpdateVerificationResults.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmUpdateVerificationResults.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmVerificationWorksheet.aspx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmVerificationWorksheet.aspx.designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\frmVerificationWorksheet.aspx.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\rptVerificationWorksheet - Backup.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\rptVerificationWorksheet.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\rptVerificationWorksheetCover.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.UserInterface\Worksheet\rptVerificationWorksheetNoQty.rdlc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\App_Data
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\IService.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\NEA_ICS.WcfService.vbproj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\NEA_ICS.WcfService.vbproj.user
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\RequestDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.AccessRights.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.AuditTrailReport.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.ManagementReport.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.MasterList.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.StockControl.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.UserActivities.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\Service.svc.WorkSheet.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ServiceFault.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\trace.log
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\UserAuditReport
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ve-23DF.tmp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\web.config
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\ACommon.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AConsumer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AEquipment.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AOrderDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AResidueDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AStockItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AStockTransactionDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AStore.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\ASupplier.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\AuditTrailRport\AUserRole.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\AjaxControlToolkit.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Database.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.Business.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.Business.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.Business.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.DataAccess.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.DataAccess.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.DataAccess.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.WcfService.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.WcfService.dll.config
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.WcfService.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\bin\NEA_ICS.WcfService.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\AdHocReportDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR001GetRackItemBalanceDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR002GetTransactionListDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR003IssueDocumentDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR004StockReviewListDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR005StockReturnDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR006StockReturnCheckListAdjustDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR006StockReturnCheckListIssueDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR006StockReturnCheckListReceiveDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR006StockReturnCheckListStockItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR007PeriodIssuesDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR008QuantityIssueSummaryDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR009ReorderStockItemListDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\MR010StockAdjustmentEntriesDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\RackItemBalanceDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\ManagementReport\TransactionListDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\CommonDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\ConsumerDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\EquipmentDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\ItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\MoreItemInfoDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\RoleDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\StoreDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\MasterList\SupplierDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\Application.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\Application.myapp
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\AssemblyInfo.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\PublishProfiles
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\Resources.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\Resources.resx
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\Settings.Designer.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\Settings.settings
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\PublishProfiles\WCF Web Service Publish.pubxml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\My Project\PublishProfiles\WCF Web Service Publish.pubxml.user
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\NEA_ICS.WcfService.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.pdb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.Resources.resources
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.vbproj.FileListAbsolute.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.vbproj.GenerateResource.Cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.vbprojResolveAssemblyReference.cache
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\NEA_ICS.WcfService.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\Package
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\TempPE
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\obj\Release\TempPE\My Project.Resources.Designer.vb.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\AdjustDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\AdjustItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\AdjustList.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\DirectIssueDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\IssueItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\IssueList.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\OrderDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\OrderItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\OrderList.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\ReceiveItemDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\ReceiveList.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\WorkSheet
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\StockControl\WorkSheet\WorksheetDetails.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\NEA_ICS.WcfService\UserAuditReport\UserActivities.vb
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\AjaxControlToolkit.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\DynamicControlsPlaceholderDLL
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\DynamicControlsPlaceholderDLL\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.chm
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\DynamicControlsPlaceholderDLL\DBauer.Web.UI.WebControls.DynamicControlsPlaceholder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\DynamicControlsPlaceholderDLL\License.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\DynamicControlsPlaceholderDLL\Problem with CHM file.txt
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\EntLibConfig.exe
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\EntLibConfig.exe.config
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\MergeConfiguration.exe
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.Database.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.UI.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.Database.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.Database.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.Database.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.CallHandlers.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.CallHandlers.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cache.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cache.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Security.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Configuration.Design.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Configuration.Design.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\Microsoft.Practices.ObjectBuilder.dll
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\MsmqDistributor.exe
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\MsmqDistributor.exe.config
+C:\NEA\ICS\NEA_ICS_AUDIT_TRAIL\NEA_ICS[VS2013-.Net4.5]\Third Party Libraries\Microsoft Enterprise Library 3.1 - May 2007\MsmqDistributor.xml
