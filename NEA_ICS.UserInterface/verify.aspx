@@ -7,10 +7,11 @@
 
 <%
     Dim onlyUserName As String = ""
+    Dim username As String = ""
     Dim LoginStatus
 
     If HttpContext.Current.User.Identity.IsAuthenticated = True Then
-        Dim username = HttpContext.Current.User.Identity.Name
+        username = HttpContext.Current.User.Identity.Name
         Dim Client As New ServiceClient
         Dim userRole = Client.GetUserRoleIDBySoeID(username)
         If userRole IsNot Nothing Then
@@ -78,6 +79,7 @@
     Response.Write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p><font size='+1'>Error : </font><br>")
     Response.Write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login failed. Please verify your login information.</p>")
     Response.Write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try <a href='login.aspx'>Logging in</a> again")
+    Response.Write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logged UserRoleUserID: " & onlyUserName & " | SoeID: " & username)
     Response.End()
 %>
 
