@@ -1,1 +1,9 @@
 /NEA_ICS.WcfService/obj/Debug
+/NEA_ICS.WcfService/bin/
+/NEA_ICS.UserInterface/obj/Debug/
+/NEA_ICS.UserInterface/bin/
+/NEA_ICS.DataAccess/obj/Debug/
+/NEA_ICS.Business/obj/Debug/
+/NEA_ICS.Business/bin/
+/NEA_ICS.DataAccess/bin/
+.vs/NEA_ICS/v15/Server/
