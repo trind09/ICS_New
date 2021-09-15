@@ -8,3 +8,5 @@
 /NEA_ICS.DataAccess/bin/
 /.vs/
 /packages/
+/NEA_ICS.WcfService/trace.log
+/NEA_ICS.UserInterface/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

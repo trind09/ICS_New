@@ -12136,3 +12136,126 @@ HelpLink.BaseHelpUrl - http://go.microsoft.com/fwlink
 HelpLink.LinkId - 20476
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2021 2:49:00 AM
+Message: HandlingInstanceID: 7181831b-a250-4627-982a-df4802b4cbc4
+An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.
+----------------------------------------------------------------------------------
+09/15/2021 09:49:00
+Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source : .Net SqlClient Data Provider
+Help link : 
+Errors : System.Data.SqlClient.SqlErrorCollection
+ClientConnectionId : 00000000-0000-0000-0000-000000000000
+Class : 20
+LineNumber : 0
+Number : 53
+Procedure : 
+Server : 
+State : 0
+ErrorCode : -2146232060
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+HResult : -2146232060
+Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.GetNewOpenConnection()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.GetOpenConnection(Boolean disposeInnerConnection)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at NEA_ICS.DataAccess.MasterListDAL.GetUserRoleIDBySoeID(String soeID) in D:\NEA\ICS_new\ICS_New1\NEA_ICS.DataAccess\MasterListDAL.vb:line 2567
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/15/2021 2:49:00 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/2/ROOT-1-132761477199280811
+ThreadIdentity : 
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+	Inner Exception
+	---------------
+	Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The network path was not found
+	Source : 
+	Help link : 
+	NativeErrorCode : 53
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : 
+	HResult : -2147467259
+	Stack Trace : The stack trace is unavailable.
+
+Category: DataAccess Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/2/ROOT-1-132761477199280811
+Process Id: 15580
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 14608
+Thread Name: 
+Extended Properties: HelpLink.ProdName - Microsoft SQL Server
+HelpLink.EvtSrc - MSSQLServer
+HelpLink.EvtID - 53
+HelpLink.BaseHelpUrl - http://go.microsoft.com/fwlink
+HelpLink.LinkId - 20476
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2021 2:49:00 AM
+Message: HandlingInstanceID: b662600a-55b5-4a09-a07f-8f227ac1a9ef
+An exception of type 'Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.FaultContractWrapperException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------------------------------------------
+09/15/2021 09:49:00
+Type : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.FaultContractWrapperException, Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Database Error. Please contact Help Desk
+Source : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling
+Help link : 
+FaultContract : NEA_ICS.WcfService.ServiceFault
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception IntentionalRethrow(System.Exception, System.Exception)
+HResult : -2146233088
+Stack Trace :    at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.RethrowRecommended(Exception chainException, Exception originalException)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyImpl.HandleException(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicy.HandleException(Exception exceptionToHandle, String policyName)
+   at NEA_ICS.Business.MasterListBL.GetUserRoleIDBySoeID(String soeID) in D:\NEA\ICS_new\ICS_New1\NEA_ICS.Business\MasterListBL.vb:line 1651
+   at NEA_ICS.WcfService.Service.GetUserRoleIDBySoeID(String soeID) in D:\NEA\ICS_new\ICS_New1\NEA_ICS.WcfService\Service.svc.MasterList.vb:line 1525
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/15/2021 2:49:00 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/2/ROOT-1-132761477199280811
+ThreadIdentity : 
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: Service Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/2/ROOT-1-132761477199280811
+Process Id: 15580
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 14608
+Thread Name: 
+Extended Properties: 
+----------------------------------------
