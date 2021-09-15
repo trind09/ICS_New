@@ -12006,3 +12006,133 @@ HelpLink.BaseHelpUrl - http://go.microsoft.com/fwlink
 HelpLink.LinkId - 20476
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 9/13/2021 7:46:19 AM
+Message: HandlingInstanceID: 17beb189-0a2a-446f-a41d-01f70ce5d728
+An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.
+----------------------------------------------------------------------------------
+09/13/2021 14:46:19
+Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Violation of PRIMARY KEY constraint 'PK_AUser'. Cannot insert duplicate key in object 'dbo.AUser'. The duplicate key value is (, S7539747Z, , Sep 13 2021  2:46PM).
+The statement has been terminated.
+CREATE Procedure [dbo].[spInsertAUser]
+Source : .Net SqlClient Data Provider
+Help link : 
+Errors : System.Data.SqlClient.SqlErrorCollection
+ClientConnectionId : 3d4905e3-485f-42cf-bbbb-3720483a6c79
+Class : 14
+LineNumber : 54
+Number : 2627
+Procedure : spInsertAUser
+Server : DESKTOP-R0UB3QT\MSSQLSERVER2017
+State : 1
+ErrorCode : -2146232060
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+HResult : -2146232060
+Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at NEA_ICS.DataAccess.AccessRightsDAL.InsertUserAudit(String storeID, String userID, String userIP, String sessionID, Boolean isNonIcsUser, Boolean isInactiveUser, Boolean isUnsuccessfulLogin) in D:\NEA\ICS_new\ICS_New\NEA_ICS.DataAccess\AccessRightsDAL.vb:line 493
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/13/2021 7:46:19 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/2/ROOT-1-132759863593143873
+ThreadIdentity : 
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: DataAccess Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/2/ROOT-1-132759863593143873
+Process Id: 19368
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 1020
+Thread Name: 
+Extended Properties: HelpLink.ProdName - Microsoft SQL Server
+HelpLink.ProdVer - 14.00.2027
+HelpLink.EvtSrc - MSSQLServer
+HelpLink.EvtID - 2627
+HelpLink.BaseHelpUrl - http://go.microsoft.com/fwlink
+HelpLink.LinkId - 20476
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:26:12 AM
+Message: HandlingInstanceID: e98241c8-1496-4802-88c0-a7e1b1cf03b5
+An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.
+----------------------------------------------------------------------------------
+09/14/2021 10:26:12
+Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Violation of PRIMARY KEY constraint 'PK_AUser'. Cannot insert duplicate key in object 'dbo.AUser'. The duplicate key value is (APD, S1234567A, f43d13a0daed442da590337, Sep 14 2021 10:26AM).
+The statement has been terminated.
+CREATE Procedure [dbo].[spInsertAUser]
+Source : .Net SqlClient Data Provider
+Help link : 
+Errors : System.Data.SqlClient.SqlErrorCollection
+ClientConnectionId : 02636043-7e61-4b9d-99f6-ecc1ac71cc92
+Class : 14
+LineNumber : 27
+Number : 2627
+Procedure : spInsertAUser
+Server : DESKTOP-R0UB3QT\MSSQLSERVER2017
+State : 1
+ErrorCode : -2146232060
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+HResult : -2146232060
+Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at NEA_ICS.DataAccess.AccessRightsDAL.InsertUserAudit(String storeID, String userID, String userIP, String sessionID, Boolean isNonIcsUser, Boolean isInactiveUser, Boolean isUnsuccessfulLogin) in D:\NEA\ICS_new\ICS_New\NEA_ICS.DataAccess\AccessRightsDAL.vb:line 493
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:26:12 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/2/ROOT-1-132760634797819879
+ThreadIdentity : 
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: DataAccess Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/2/ROOT-1-132760634797819879
+Process Id: 13068
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 11484
+Thread Name: 
+Extended Properties: HelpLink.ProdName - Microsoft SQL Server
+HelpLink.ProdVer - 14.00.2027
+HelpLink.EvtSrc - MSSQLServer
+HelpLink.EvtID - 2627
+HelpLink.BaseHelpUrl - http://go.microsoft.com/fwlink
+HelpLink.LinkId - 20476
+
+----------------------------------------

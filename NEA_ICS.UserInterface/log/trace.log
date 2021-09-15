@@ -26371,3 +26371,847 @@ Win32 Thread Id: 16668
 Thread Name: 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+Timestamp: 9/13/2021 7:08:05 AM
+Message: HandlingInstanceID: ce771c7c-819c-49db-b3b6-ebbff31044a1
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/13/2021 14:08:05
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\ICS_new\ICS_New\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/13/2021 7:08:05 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-1-132759863325513930
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-1-132759863325513930
+Process Id: 18100
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 10844
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/13/2021 7:23:41 AM
+Message: HandlingInstanceID: 2c9f1c0b-b177-451e-bf7c-bf132f32e739
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/13/2021 14:23:41
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\ICS_new\ICS_New\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/13/2021 7:23:41 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-1-132759863325513930
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-1-132759863325513930
+Process Id: 18100
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 13756
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/13/2021 7:47:44 AM
+Message: HandlingInstanceID: 0ae6639c-9164-4405-99ff-8d8f803a8878
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/13/2021 14:47:44
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\ICS_new\ICS_New\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/13/2021 7:47:44 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-2-132759927989859092
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-2-132759927989859092
+Process Id: 18100
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 14260
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/13/2021 7:55:52 AM
+Message: HandlingInstanceID: 14631c6c-3cc3-4ab7-8ea4-5b4100e88e80
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/13/2021 14:55:52
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\ICS_new\ICS_New\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/13/2021 7:55:52 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-3-132759932091899976
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-3-132759932091899976
+Process Id: 18100
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 17968
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:26:32 AM
+Message: HandlingInstanceID: 7df3867b-05eb-4b97-9329-d4ccd3a41b8f
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:26:32
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:26:32 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-1-132760634441183662
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-1-132760634441183662
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 14908
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:30:00 AM
+Message: HandlingInstanceID: 0a0cf96b-1344-4292-834d-6126b1a2a88e
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:30:00
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:30:00 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-1-132760634441183662
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-1-132760634441183662
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 19580
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:37:32 AM
+Message: HandlingInstanceID: aabf2ff0-dd80-48ee-aef0-10eae6e68380
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:37:32
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:37:32 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-2-132760641662903800
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-2-132760641662903800
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 16052
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:38:28 AM
+Message: HandlingInstanceID: ca0fe9b3-c31b-41aa-a7a7-0558df7a88c4
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:38:28
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:38:28 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-2-132760641662903800
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-2-132760641662903800
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 19580
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:48:35 AM
+Message: HandlingInstanceID: b8eeb98f-789d-4e08-9f9e-8a2f5c823bfc
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:48:35
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:48:35 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-4-132760643183403763
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-4-132760643183403763
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 13224
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:52:30 AM
+Message: HandlingInstanceID: f4d815ee-9440-4ffb-81e8-dc739e43f9bf
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:52:30
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:52:30 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-7-132760651186455757
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-7-132760651186455757
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 20180
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 3:53:03 AM
+Message: HandlingInstanceID: 631a9122-4fc5-4932-be77-883d1a64a2d3
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 10:53:03
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 3:53:03 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-8-132760651676146705
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-8-132760651676146705
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 8324
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 4:01:05 AM
+Message: HandlingInstanceID: d5de2ac0-94c8-4c2d-858e-ba07e3d249bd
+An exception of type 'System.ServiceModel.CommunicationException' occurred and was caught.
+------------------------------------------------------------------------------------------
+09/14/2021 11:01:05
+Type : System.ServiceModel.CommunicationException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The maximum retry count has been exceeded with no response from the remote endpoint. The reliable session was faulted. This is often an indication that the remote endpoint is no longer available.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void HandleReturnMessage(System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMessage)
+HResult : -2146233087
+Stack Trace : 
+Server stack trace: 
+   at System.ServiceModel.Channels.ReliableRequestSessionChannel.SyncRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NEA_ICS.UserInterface.NEA_ICS.WcfService.IService.UpdateUserRole(RoleDetails roleDetails, List`1 consumerList)
+   at NEA_ICS.UserInterface.NEA_ICS.WcfService.ServiceClient.UpdateUserRole(RoleDetails roleDetails, List`1 consumerList) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\Service References\NEA_ICS.WcfService\Reference.vb:line 13926
+   at NEA_ICS.UserInterface.frmRole.btnSaveUser_Click(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\MasterList\frmRole.aspx.vb:line 763
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 4:01:05 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-8-132760651676146705
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+	Inner Exception
+	---------------
+	Type : System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : There was no endpoint listening at http://localhost:1651/Service.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+	Source : System.ServiceModel.Internals
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TAsyncResult End[TAsyncResult](System.IAsyncResult)
+	HResult : -2146233087
+	Stack Trace :    at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+	   at System.ServiceModel.Channels.ClientReliableChannelBinder`1.RequestAsyncResult.End(IAsyncResult result)
+	   at System.ServiceModel.Channels.ClientReliableChannelBinder`1.EndRequest(IAsyncResult result)
+	   at System.ServiceModel.Channels.ReliableBinderRequestAsyncResult.EndOperation(IAsyncResult result)
+	   at System.ServiceModel.Channels.ReliableOutputAsyncResult.OperationCallback(IAsyncResult result)
+
+		Inner Exception
+		---------------
+		Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Unable to connect to the remote server
+		Source : System
+		Help link : 
+		Status : ConnectFailure
+		Response : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.IO.Stream EndGetRequestStream(System.IAsyncResult, System.Net.TransportContext ByRef)
+		HResult : -2146233079
+		Stack Trace :    at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+		   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStreamAsyncResult.CompleteGetRequestStream(IAsyncResult result)
+
+			Inner Exception
+			---------------
+			Type : System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No connection could be made because the target machine actively refused it 127.0.0.1:1651
+			Source : System
+			Help link : 
+			ErrorCode : 10061
+			SocketErrorCode : ConnectionRefused
+			NativeErrorCode : 10061
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void InternalEndConnect(System.IAsyncResult)
+			HResult : -2147467259
+			Stack Trace :    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+			   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+			   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-8-132760651676146705
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 17100
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 4:14:37 AM
+Message: HandlingInstanceID: b6b6323c-563e-457e-be7e-5252d055d565
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 11:14:37
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 4:14:37 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-9-132760664521161384
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-9-132760664521161384
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 10176
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 6:34:08 AM
+Message: HandlingInstanceID: 73b780a9-8e0c-4145-a9f8-c2209f72a781
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 13:34:08
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 6:34:08 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-10-132760748291316138
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-10-132760748291316138
+Process Id: 14804
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 10736
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 6:36:25 AM
+Message: HandlingInstanceID: bf908b02-8203-4a9d-b87a-ee4af8d7e78a
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 13:36:25
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 6:36:25 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-1-132760749560802037
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-1-132760749560802037
+Process Id: 6812
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 2644
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 7:03:40 AM
+Message: HandlingInstanceID: d1483013-274d-416d-b603-f0b31a395031
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 14:03:40
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 7:03:40 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-1-132760749560802037
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-1-132760749560802037
+Process Id: 6812
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 14032
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 7:11:54 AM
+Message: HandlingInstanceID: 0ddea928-0fee-4618-9c3e-a467b85d3306
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 14:11:54
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 7:11:54 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-3-132760770893929541
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-3-132760770893929541
+Process Id: 6812
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 16660
+Thread Name: 
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/14/2021 7:17:17 AM
+Message: HandlingInstanceID: 8716dad5-fd01-4a2e-a57e-9b64355b050d
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+09/14/2021 14:17:17
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : System.Web.HttpApplication+CancelModuleException
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AbortInternal()
+HResult : -2146233040
+Stack Trace :    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NEA_ICS.UserInterface.frmMain.Page_Load(Object sender, EventArgs e) in D:\NEA\Sourcecode\500-Development\ICS\NEA_ICS.UserInterface\frmMain.aspx.vb:line 24
+
+Additional Info:
+
+MachineName : DESKTOP-R0UB3QT
+TimeStamp : 9/14/2021 7:17:17 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+AppDomainName : /LM/W3SVC/3/ROOT-4-132760774217157888
+ThreadIdentity : DESKTOP-R0UB3QT\trind
+WindowsIdentity : DESKTOP-R0UB3QT\trind
+
+Category: UserInterface Exception
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DESKTOP-R0UB3QT
+Application Domain: /LM/W3SVC/3/ROOT-4-132760774217157888
+Process Id: 6812
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Win32 Thread Id: 8996
+Thread Name: 
+Extended Properties: 
+----------------------------------------

@@ -758,7 +758,7 @@ Partial Public Class frmRole
             RoleDetails.UserStatus = IIf(rdoActivateY.Checked, "O", "C")
             RoleDetails.LoginUser = Session("UserID")
             RoleDetails.ChangeStatusReason = "Deactivated by ICS User"
-            RoleDetails.SoeID = txtSOEID.Text
+            RoleDetails.SoeID = txtSOEID.Text.Trim.Replace(" ", "")
 
             lblErrSaveUser.Text = Client.UpdateUserRole(RoleDetails, ConsumerList)
             Client.Close()
@@ -812,7 +812,7 @@ Partial Public Class frmRole
 
             RoleDetails.StoreID = ddlUserStore.SelectedValue
             RoleDetails.UserID = txtUserNRIC.Text.Trim.ToUpper
-            RoleDetails.SoeID = txtSOEID.Text.Trim
+            RoleDetails.SoeID = txtSOEID.Text.Trim.Replace(" ", "")
             RoleDetails.UserRole = ddlUserRole.SelectedValue
             RoleDetails.UserStatus = IIf(rdoActivateY.Checked, "O", "C")
             RoleDetails.LoginUser = Session("UserID")

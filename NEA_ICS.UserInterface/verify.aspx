@@ -12,6 +12,11 @@
 
     If HttpContext.Current.User.Identity.IsAuthenticated = True Then
         username = HttpContext.Current.User.Identity.Name
+        Try
+            username = username.Substring(username.IndexOf("\") + 1)
+        Catch
+            username = username
+        End Try
         Dim Client As New ServiceClient
         Dim userRole = Client.GetUserRoleIDBySoeID(username)
         If userRole IsNot Nothing Then

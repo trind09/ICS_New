@@ -6,4 +6,5 @@
 /NEA_ICS.Business/obj/Debug/
 /NEA_ICS.Business/bin/
 /NEA_ICS.DataAccess/bin/
-.vs/NEA_ICS/v15/Server/
+/.vs/
+/packages/
